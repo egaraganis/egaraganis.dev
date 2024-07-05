@@ -12,7 +12,7 @@ export default (
       </head>
       <body>
          <comp.sidebar />
-         <div class="main-container">{children}</div>
+         <div className="main-container">{children}</div>
       </body>
    </html>
 );
