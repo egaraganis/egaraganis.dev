@@ -1,0 +1,26 @@
+nav {
+   position: fixed;
+   top: 0;
+   left: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #0d45ac;
+   width: 240px;
+   height: 100vh;
+   border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+
+nav > a {
+   margin: 5px;
+   color: white;
+   text-decoration: none;
+   font-size: 19px;
+   font-weight: 600;
+}
+
+nav > a > img {
+   margin-right: 5px;
+}
