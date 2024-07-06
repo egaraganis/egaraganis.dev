@@ -9,6 +9,9 @@ export default (
          <link rel="stylesheet" href="/styles/sidebar.css" />
          <link rel="stylesheet" href="/styles/about.css" />
          <link rel="stylesheet" href="/styles/projects.css" />
+         <link rel="stylesheet" href="/styles/education.css" />
+         <link rel="stylesheet" href="/styles/stack.css" />
+         <link rel="stylesheet" href="/styles/experience.css" />
       </head>
       <body>
          <comp.sidebar />

@@ -7,6 +7,9 @@ export default (
 ) => (
    <>
       <comp.about />
+      <comp.education />
+      <comp.stack />
+      <comp.experience />
       <comp.projects />
    </>
 );

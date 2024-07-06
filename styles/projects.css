@@ -1,0 +1,31 @@
+.category-projects-container {
+   display: flex;
+   gap: 15px;
+   width: 80vw;
+   overflow-x: auto;
+   padding-bottom: 40px;
+}
+
+.project-container {
+   min-width: 20vw;
+   width: 20vw;
+   border: 1px solid rgb(218, 218, 218);
+   border-radius: 5px;
+   padding-top: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.table-header {
+   font-weight: 500;
+   color: rgb(116, 116, 116);
+}
+
+td {
+   padding: 5px;
+   vertical-align: baseline;
+}
+
+td > span:not(:first-child) {
+   margin-left: 20px;
+}
