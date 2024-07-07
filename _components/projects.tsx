@@ -2,7 +2,7 @@ export default (
    { title, children, comp, projects }: Lume.Data,
    helpers: Lume.Helpers
 ) => (
-   <div className="projects-container">
+   <div id="projects" className="projects-container">
       <h1>Projects</h1>
       <p>a software engineer</p>
       {projects.categories.map((category, index) => (
