@@ -7,7 +7,8 @@ nav {
    justify-content: center;
    align-items: center;
    background-color: #0d45ac;
-   width: 240px;
+   width: 20vw;
+   max-width: 200px;
    height: 100vh;
    border-top-right-radius: 15px;
    border-bottom-right-radius: 15px;
