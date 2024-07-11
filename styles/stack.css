@@ -4,3 +4,37 @@
    flex-direction: column;
    justify-content: center;
 }
+
+.container {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1.2fr 0.8fr;
+   gap: 0px 0px;
+   grid-auto-flow: row;
+   grid-template-areas:
+      "back-end-container front-end-container"
+      "databases-container front-end-container";
+}
+
+.front-end-container {
+   grid-area: front-end-container;
+   width: 40vw;
+}
+
+.front-end-container > div {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.front-end-container > div > div {
+   display: flex;
+   width: 50%;
+}
+
+.back-end-container {
+   grid-area: back-end-container;
+}
+
+.databases-container {
+   grid-area: databases-container;
+}
