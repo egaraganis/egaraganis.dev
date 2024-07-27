@@ -1,32 +1,21 @@
 .category-projects-container {
+   padding-bottom: 30px;
+   padding-top: 20px;
+   padding-left: 10px;
    display: flex;
    gap: 15px;
    width: 80vw;
-   overflow-x: auto; 
-   padding-bottom: 20px;
+   overflow-x: scroll;
+   scrollbar-width: 2px;
+   scrollbar-color: #0d45ac transparent;
 }
-
-.category-projects-container::-webkit-scrollbar {
-   height: 3px;
- }
-  
-.category-projects-container::-webkit-scrollbar-track {
-   background: transparent;
-   box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
- }
-  
-.category-projects-container::-webkit-scrollbar-thumb {
-   background: #0d45ac;
- }
 
 .project-container {
    min-width: 350px;
    width: 33vw;
-   border: 1px solid rgb(218, 218, 218);
+   box-shadow: rgba(0, 0, 0, 0.07) 0px 0px 0px 1px;
    border-radius: 5px;
-   padding-top: 10px;
-   padding-left: 10px;
-   padding-right: 10px;
+   padding: 5px;
 }
 
 .table-header {
@@ -37,6 +26,10 @@
 td {
    padding: 5px;
    vertical-align: baseline;
+}
+
+td > span {
+   font-size: medium;
 }
 
 td > span:not(:first-child) {

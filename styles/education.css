@@ -1,5 +1,5 @@
 .education-container {
-   min-height: 90vh;
+   min-height: 100vh;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -10,7 +10,9 @@
 }
 
 .degree-container {
+   margin-top: 20px;
    display: flex;
+   gap: 50px;
 }
 
 .degree-container > div:first-child {

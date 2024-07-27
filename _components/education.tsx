@@ -47,7 +47,7 @@ export default (
          <div>
             <h3>Thesis</h3>
             <p>
-               During my thesis:{" "}
+               During my thesis:
                <a href="">
                   Leveraging Semantic Data Lakes Capabilites Using Knowledge
                   Graphs & Graph Technologies
@@ -58,7 +58,8 @@ export default (
                data exploration and lineage, along with enhancement of graph
                querying and graph data science capabilities.
             </p>
-            <p>Read my presentation</p>
+            <p>Read presentation</p>
+            <p>Read thesis</p>
          </div>
       </div>
    </div>
