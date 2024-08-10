@@ -2,8 +2,8 @@ export default (
 { title, children, comp, projects }: Lume.Data,
 helpers: Lume.Helpers
 ) => (
-<div class="front-end-container">
-    <h2>On Frontend Development</h2>
+<div class="back-end-container">
+    <h2>On Backend Development</h2>
     <p>
         I've been developing frontend applications for over 8 years. I
         have been experimenting with various frameworks and technologies,

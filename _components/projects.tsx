@@ -8,10 +8,11 @@ export default (
       {projects.categories.map((category, index) => (
          <div key={index}>
             <h2>{category.title}</h2>
-            <div className="category-projects-container">
-               {category.projects.map((project, projectIndex) => (
-                  <comp.project key={projectIndex} project={project} />
-               ))}
+            <div id={`${category.id}-tripplet-0`} className="category-projects-container">
+                  <button id={`nextButton-${category.id}`}>Next </button>
+                  <comp.project id={`project-card-${category.id}-1`} project={category.projects[0]} />
+                  <comp.project id={`project-card-${category.id}-2`} project={category.projects[1]} />
+                  <comp.project id={`project-card-${category.id}-3`} project={category.projects[2]} />
             </div>
          </div>
       ))}

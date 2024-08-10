@@ -1,6 +1,7 @@
 {
    "categories": [
       {
+         "id": "ai",
          "title": "Artificial Intelligence / Machine Learning",
          "projects": [
             {
@@ -48,6 +49,7 @@
          ]
       },
       {
+         "id": "web",
          "title": "Web Development",
          "projects": [
             {
@@ -95,6 +97,7 @@
          ]
       },
       {
+         "id": "ds",
          "title": "Data Structures",
          "projects": [
             {
@@ -124,6 +127,7 @@
          ]
       },
       {
+         "id": "low-level",
          "title": "Low level programming",
          "projects": [
             {
@@ -153,6 +157,7 @@
          ]
       },
       {
+         "id": "comp",
          "title": "Compilers",
          "projects": [
             {

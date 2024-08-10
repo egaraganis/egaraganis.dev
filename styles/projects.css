@@ -28,6 +28,10 @@ td {
    vertical-align: baseline;
 }
 
+tr:nth-child(1) {
+   font-weight: bold;
+}
+
 td > span {
    font-size: medium;
 }

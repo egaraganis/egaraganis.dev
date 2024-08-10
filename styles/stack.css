@@ -33,6 +33,17 @@
 
 .back-end-container {
    grid-area: back-end-container;
+   width: 40vw;
+}
+
+.back-end-container > div {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.back-end-container > div > div {
+   display: flex;
+   width: 50%;
 }
 
 .databases-container {

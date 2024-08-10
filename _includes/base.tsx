@@ -18,6 +18,7 @@ export default (
       <body>
          <comp.sidebar />
          <div className="main-container">{children}</div>
+         <script type="module" src="/scripts/paginate.js"></script>
       </body>
    </html>
 );

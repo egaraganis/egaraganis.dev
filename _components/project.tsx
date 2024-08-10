@@ -1,10 +1,8 @@
 export default (data: Lume.Data, helpers: Lume.Helpers) => (
    <div className="project-container">
-      <table>
+      <table id={data.id}>
          <tr>
-            <td>
-               <b>{data.project.title}</b>
-            </td>
+            <td>{data.project.title}</td>
          </tr>
          <tr>
             <td>{data.project.description}</td>

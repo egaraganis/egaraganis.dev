@@ -18,3 +18,8 @@ body {
    width: 75vw;
    margin-left: 240px;
 }
+
+.row {
+   display: flex;
+   gap: 40px;
+}
