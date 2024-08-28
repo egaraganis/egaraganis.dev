@@ -14,6 +14,12 @@ body {
    font-optical-sizing: auto;
 }
 
+a {
+   text-decoration: none;
+   color: #0d45ac;
+   font-weight: 500;
+}
+
 .main-container {
    width: 75vw;
    margin-left: 240px;

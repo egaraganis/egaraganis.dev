@@ -7,71 +7,54 @@ helpers: Lume.Helpers
     <p>
         I've been developing frontend applications for over 8 years. I
         have been experimenting with various frameworks and technologies,
-        including <a href="test">VueJS</a>, various UI & testing
-        frameworks such as <a href="test">MUI</a>, with my main stack
-        being:
+        including <a href="test">VueJS</a>, various UI frameworks and design
+        systems, such as (<a href="test">MUI</a> and <a href="test">Material</a>).
     </p>
     <div>
-        <div>
+        <div class="tech">
             <img src="/assets/stack/lume.svg" width={40} alt="Lume logo" />
             <div>
-                <p>Lume</p>
-                <p>
-                    I've been using lume as my privamy SSG framework, for
-                    static websites.
-                </p>
+                <h4>Lume</h4>
+                <p>My privamy SSG framework, for static websites.</p>
             </div>
         </div>
-        <div>
+        <div class="tech">
             <img src="/assets/stack/nextjs.svg" width={40} alt="Next.JS logo" />
             <div>
-                <p>Next.JS</p>
-                <p>
-                    Been writing Next the last 3 years, due to its
-                    granularity on writing pages and components whether on
-                    server or the client.
-                </p>
+                <h4>Next.JS</h4>
+                <p>My versatile web framework the past 4 years.</p>
             </div>
         </div>
-        <div>
+        <div class="tech">
             <img src="/assets/stack/react.svg" width={40} alt="React logo" />
             <div>
-                <p>React</p>
-                <p>
-                    Been writing React over 5 years and its my primary
-                    javascript framework.
-                </p>
+                <h4>React</h4>
+                <p>My primary JS framework the past 6 years.</p>
             </div>
         </div>
-        <div>
-            <img src="/assets/stack/html.svg" width={40} alt="HTML and CSS logo" />
-            <img src="/assets/stack/css.svg" width={40} alt="My Happy SVG" style={{ marginLeft: -20, marginTop: 20 }} />
+        <div class="tech">
             <div>
-                <p>HTML + CSS</p>
-                <p>
-                    Love being as close as possible to native HTML and CSS
-                    structuring and styling, including responsive desings.
-                </p>
+                <img src="/assets/stack/html.svg" width={40} alt="HTML and CSS logo" />
+                <img src="/assets/stack/css.svg" width={40} alt="My Happy SVG" style={{ marginTop: -30, marginLeft: -5 }} />
+            </div>
+            <div>
+                <h4>HTML + CSS</h4>
+                <p>I love writing plain old native HTML and CSS.</p>
             </div>
         </div>
-        <div>
+        <div class="tech">
             <img src="/assets/stack/react-native.svg" width={40} alt="My Happy SVG" />
             <div>
-                <p>React Native</p>
-                <p>
-                    I am extending the React knowledge over mobile
-                    development with React Native
-                </p>
+                <h4>React Native</h4>
+                <p>I maintain my React knowledge on mobile development. </p>
             </div>
         </div>
-        <div>
+        <div class="tech">
             <img src="/assets/stack/tauri.svg" width={40} alt="My Happy SVG" />
             <div>
-                <p>Tauri</p>
+                <h4>Tauri</h4>
                 <p>
-                    Isomorphic software across different device or runtime
-                    is my top priority, with Tauri running on both desktop
-                    and mobile apps.
+                    For isomorphic software across different devices.
                 </p>
             </div>
         </div>

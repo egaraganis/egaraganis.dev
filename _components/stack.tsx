@@ -7,7 +7,9 @@ export default (
       <div class="container">
          <comp.frontend />
          <comp.backend />
-         <div class="databases-container"></div>
+         <comp.dbs />
+         <comp.prolangs />
       </div>
+      <comp.rest />
    </div>
 );

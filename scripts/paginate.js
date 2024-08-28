@@ -1,7 +1,7 @@
 import data from '../_data/projects.json' assert { type: 'json' };
 
 const getNextTripplet = (categoryProjects, currentTrippletNo) => {
-    const nextTrippletStartingIndex = (currentTrippletNo + 1)*3    
+    const nextTrippletStartingIndex = (currentTrippletNo + 1)*3
     const getNextNo = Math.min(3, categoryProjects.length - (nextTrippletStartingIndex))
     return categoryProjects.slice(nextTrippletStartingIndex, nextTrippletStartingIndex + getNextNo - 1)
 }
@@ -34,5 +34,3 @@ data.categories.forEach((category, index) => {
         trippletContainer.id = `${category.id}-tripplet-${(currentTrippletNo + 1)%category.projects.length}`
     });
 })
-
- 
