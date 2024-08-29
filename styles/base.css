@@ -20,9 +20,13 @@ a {
    font-weight: 500;
 }
 
+h1 {
+   margin-bottom: 0px;
+}
+
 .main-container {
    width: 75vw;
-   margin-left: 240px;
+   margin-left: 280px;
 }
 
 .row {

@@ -16,8 +16,7 @@
 .container {
    display: grid;
    grid-template-columns: 2fr 0.5fr 0.5fr;
-   grid-template-rows: 1.1fr 1fr 0.9fr;
-   gap: 0px 20px;
+   gap: 10px 20px;
    grid-auto-flow: row;
    grid-template-areas:
    "backend-container frontend-container frontend-container"
@@ -34,7 +33,7 @@
 .front-end-container > div {
    display: flex;
    flex-wrap: wrap;
-   gap: 5px;
+   gap: 10px;
    flex-grow: 1;
 }
 
@@ -47,6 +46,12 @@
    grid-area: backend-container;
    display: flex;
    flex-direction: column;
+}
+
+.back-end-container > div p {
+   opacity: 95%;
+   color: black
+   ;
 }
 
 .back-end-container > div {
@@ -69,8 +74,8 @@
    flex-direction: column;
 }
 
-
 .dbs-container > div {
+   margin-top: 5px;
    display: flex;
    gap: 20px;
    flex-grow: 1;
@@ -119,14 +124,23 @@ h6 {
 }
 
 .rest-container {
+   margin-top: 20px;
    display: grid;
-   grid-template-columns: 2fr 1fr 1fr 1fr;
+   grid-template-columns: 3fr 1fr;
    grid-template-rows: 1fr 1fr;
    gap: 0px 30px;
-   grid-template-areas: "ds-container devops-container on-blockchain on-cloud";
+   grid-template-areas:
+      "ds-container devops-container on-blockchain"
+      "ds-container on-cloud linux-container";
 }
 
 .ds-container { grid-area: ds-container; }
+
+.ds-container > div {
+   display: flex;
+   align-items: center;
+   gap: 25px;
+}
 
 .devops-container { grid-area: devops-container; }
 

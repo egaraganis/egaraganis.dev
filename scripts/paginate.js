@@ -16,7 +16,7 @@ data.categories.forEach((category, index) => {
         const nextTripplet = getNextTripplet(category.projects, currentTrippletNo)
 
         for(let i=0; i < nextTripplet.length; i++) {
-            const projectCard = document.getElementById(`project-card-${category.id}-${i+1}`) 
+            const projectCard = document.getElementById(`project-card-${category.id}-${i+1}`)
             const tdElements = projectCard.querySelectorAll('td');
             tdElements[0].textContent = nextTripplet[i].title
             tdElements[1].textContent = nextTripplet[i].description

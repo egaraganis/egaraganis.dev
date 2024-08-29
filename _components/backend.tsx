@@ -16,8 +16,7 @@ helpers: Lume.Helpers
                 <div>
                     <h4>Spring</h4>
                     <p>
-                        I've been using lume as my privamy SSG framework, for
-                        static websites.
+                        I have familiarized myself with the Spring ecosystem the past 4 years, including Spring Security, Spring Data & Hibernate.
                     </p>
                 </div>
             </div>
@@ -26,9 +25,7 @@ helpers: Lume.Helpers
                 <div>
                     <h4>NodeJS</h4>
                     <p>
-                        Been writing Next the last 3 years, due to its
-                        granularity on writing pages and components whether on
-                        server or the client.
+                        I am experienced with JS backend codebases, such as ExpressJS.
                     </p>
                 </div>
             </div>
@@ -40,15 +37,13 @@ helpers: Lume.Helpers
                 <div>
                     <h4>Kafka</h4>
                     <p>
-                        Been writing React over 5 years and its my primary
-                        javascript framework.
+                        I have worked with Kafka event's streaming architecture.
                     </p>
                 </div>
             </div>
             <h6>Testing</h6>
             <p>
-                Love being as close as possible to native HTML and CSS
-                structuring and styling, including responsive desings.
+                Committed on Test-Driven Development (TDD) approach with Spock and JUnit.
             </p>
         </div>
     </div>

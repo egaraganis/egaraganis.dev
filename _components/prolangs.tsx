@@ -4,13 +4,6 @@ helpers: Lume.Helpers
 ) => (
 <div class="prolangs-container">
     <h2>Programming Languages</h2>
-    <p>
-        I've been developing frontend applications for over 8 years. I
-        have been experimenting with various frameworks and technologies,
-        including <a href="test">VueJS</a>, various UI & testing
-        frameworks such as <a href="test">MUI</a>, with my main stack
-        being:
-    </p>
     <div>
         <div class="lang-vertical">
             <div>
@@ -18,8 +11,7 @@ helpers: Lume.Helpers
                 <h4>Java</h4>
             </div>
             <p>
-                I've been using lume as my privamy SSG framework, for
-                static websites.
+                Java / Groovy developer for over 7 years.
             </p>
         </div>
         <div class="lang-vertical">
@@ -28,9 +20,7 @@ helpers: Lume.Helpers
                 <h4>JS / TS</h4>
             </div>
             <p>
-                Been writing Next the last 3 years, due to its
-                granularity on writing pages and components whether on
-                server or the client.
+                JS developer for over 8 years.
             </p>
         </div>
         <div class="lang-vertical">
@@ -39,18 +29,16 @@ helpers: Lume.Helpers
                 <h4>Python</h4>
             </div>
             <p>
-                Been writing React over 5 years and its my primary
-                javascript framework.
+                Variety of data science projects with Python.
             </p>
         </div>
         <div class="lang-vertical">
             <div>
-                <h4>C / C++ /</h4>
+                <h4>C / C++ / </h4>
                 <img src="/assets/stack/rust.svg" width={35} alt="React logo" />
             </div>
             <p>
-                Been writing React over 5 years and its my primary
-                javascript framework.
+                Handful experience on low-level programming.
             </p>
         </div>
     </div>

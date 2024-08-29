@@ -7,9 +7,9 @@ export default (
       <div className="degree-container">
          <div>
             <h2>Bachelor at Department of Informatics & Telecommunications</h2>
+            <h4>National Kapodistrian University of Athens</h4>
             <p>
-               I acuired my bachelor's degree at National Kapodistrian
-               University of Athens, where I specilized in:
+               Specilized in:
             </p>
             <ul>
                <li>Data Information and Knowledge Management</li>
@@ -20,7 +20,7 @@ export default (
          <div>
             <h3>Thesis</h3>
             <p>
-               During my thesis:{" "}
+               During my bachelor thesis, {" "}
                <a href="">
                   A Web-Based Survey Manager for Building Dynamic Surveys with
                   Nested Visualizations
@@ -35,9 +35,9 @@ export default (
       <div className="degree-container">
          <div>
             <h2>Master at Information Systems Development and Security</h2>
+            <h4>Athens University Of Economics And Business</h4>
             <p>
-               I acuired my master degree at Athens University Of Economics And
-               Business, where I received my specilization certification in:
+               Certification in:
             </p>
             <ul>
                <li>Cybersecurity & Critical Infrastructures Protection</li>
@@ -47,7 +47,7 @@ export default (
          <div>
             <h3>Thesis</h3>
             <p>
-               During my thesis:
+               During my master thesis, {" "}
                <a href="">
                   Leveraging Semantic Data Lakes Capabilites Using Knowledge
                   Graphs & Graph Technologies

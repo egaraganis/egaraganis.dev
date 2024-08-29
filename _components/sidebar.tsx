@@ -1,5 +1,6 @@
 export default (data: Lume.Data, helpers: Lume.Helpers) => (
    <nav>
+      <div class="me" />
       <a href="#about">
          <img src="/assets/about.png" width="16px" />
          About
@@ -20,7 +21,13 @@ export default (data: Lume.Data, helpers: Lume.Helpers) => (
          <img src="/assets/projects.png" width="15px" />
          Projects
       </a>
-      <a href="#side">Side Quests</a>
-      <a href="#interests">Interests</a>
+      <a href="#side">
+         <img src="/assets/side.png" width="15px" />
+         Side Quests
+      </a>
+      <a href="#interests">
+         <img src="/assets/love.png" width="15px" />
+         Interests
+      </a>
    </nav>
 );

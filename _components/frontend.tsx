@@ -15,7 +15,7 @@ helpers: Lume.Helpers
             <img src="/assets/stack/lume.svg" width={40} alt="Lume logo" />
             <div>
                 <h4>Lume</h4>
-                <p>My privamy SSG framework, for static websites.</p>
+                <p>My primary SSG framework, for static websites.</p>
             </div>
         </div>
         <div class="tech">
