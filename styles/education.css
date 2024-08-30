@@ -15,6 +15,10 @@
    gap: 50px;
 }
 
+.degree-container h6 {
+   color: black;
+}
+
 .degree-container > div:first-child {
    width: 60%;
 }

@@ -7,7 +7,7 @@ export default (
       <div className="degree-container">
          <div>
             <h2>Bachelor at Department of Informatics & Telecommunications</h2>
-            <h4>National Kapodistrian University of Athens</h4>
+            <h3>National Kapodistrian University of Athens</h3>
             <p>
                Specilized in:
             </p>
@@ -29,13 +29,13 @@ export default (
                building user interfaces, along with an advanced analytics engine
                for survey results exploration and visualizations.
             </p>
-            <p>Thesis preview</p>
+            <h6>[1] A. Smith, "An Analysis of Quantum Computing," Journal of Theoretical Physics, vol. 57, no. 4, pp. 231-240, 2023.</h6>
          </div>
       </div>
       <div className="degree-container">
          <div>
             <h2>Master at Information Systems Development and Security</h2>
-            <h4>Athens University Of Economics And Business</h4>
+            <h3>Athens University Of Economics And Business</h3>
             <p>
                Certification in:
             </p>
@@ -58,8 +58,7 @@ export default (
                data exploration and lineage, along with enhancement of graph
                querying and graph data science capabilities.
             </p>
-            <p>Read presentation</p>
-            <p>Read thesis</p>
+            <h6>[1] A. Smith, "An Analysis of Quantum Computing," Journal of Theoretical Physics, vol. 57, no. 4, pp. 231-240, 2023.</h6>
          </div>
       </div>
    </div>
