@@ -33,3 +33,7 @@ h1 {
    display: flex;
    gap: 40px;
 }
+
+.hide {
+   display: none;
+}

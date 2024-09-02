@@ -5,14 +5,11 @@
    padding-right: 10px;
    display: flex;
    gap: 15px;
-   overflow-x: scroll;
-   scrollbar-width: 2px;
-   scrollbar-color: #0d45ac transparent;
 }
 
 .project-container {
    min-width: 350px;
-   width: 33vw;
+   width: 33%;
    box-shadow: rgba(0, 0, 0, 0.07) 0px 0px 0px 1px;
    border-radius: 5px;
    padding: 5px;
@@ -23,11 +20,17 @@
    justify-content: space-between;
 }
 
-.navigable-header > button {
+.navigable-header button {
    background-color: transparent;
    border: 0px;
    cursor: pointer;
 }
+
+.navigable-header > div > :first-child {
+   transform: rotate(180deg);
+   padding-top: 3.5px;
+}
+
 
 .table-header {
    font-weight: 500;

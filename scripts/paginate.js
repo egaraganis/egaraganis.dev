@@ -1,53 +1,97 @@
-const response = await fetch('../_data/projects.json');
-const data = await response.json();
+const response = await fetch('../_data/projects.json')
+const data = await response.json()
 
-const getNextTripplet = (categoryProjects, currentTrippletNo) => {
+function createProjectContainer(project) {
+    const container = document.createElement('div')
+    container.className = 'project-container'
 
-    const nextTrippletStartingIndex = (currentTrippletNo + 1)*3
+    const table = document.createElement('table')
 
-    console.log(nextTrippletStartingIndex)
+    const titleRow = document.createElement('tr')
+    const titleCell = document.createElement('td')
+    titleCell.textContent = project.title
+    titleRow.appendChild(titleCell)
+    table.appendChild(titleRow)
 
-    const getNextNo = Math.min(3, categoryProjects.length - (nextTrippletStartingIndex))
+    const descriptionRow = document.createElement('tr')
+    const descriptionCell = document.createElement('td')
+    descriptionCell.textContent = project.description
+    descriptionRow.appendChild(descriptionCell)
+    table.appendChild(descriptionRow)
 
-    console.log(nextTrippletStartingIndex + getNextNo)
+    const langsRow = document.createElement('tr')
+    const langsCell = document.createElement('td')
 
-    return categoryProjects.slice(nextTrippletStartingIndex, nextTrippletStartingIndex + getNextNo)
+    project.langs.forEach(lang => {
+        const langSpan = document.createElement('span')
+        langSpan.textContent = lang
+        langsCell.appendChild(langSpan)
+    })
+
+    langsRow.appendChild(langsCell)
+    table.appendChild(langsRow)
+
+    container.appendChild(table)
+
+    return container
 }
 
 data.categories.forEach((category, index) => {
-    const totalTriplets = Math.ceil(category.projects.length/3)
-    console.log({totalTriplets})
+
+    const regex = new RegExp(`^${category.id}-tripplet(-\\d+)?$`)
+    const noProjects = category.projects.length
+
+    const backButton = document.getElementById(`backButton-${category.id}`)
     const nextButton = document.getElementById(`nextButton-${category.id}`)
 
+    if(noProjects === 3) nextButton.classList.add('hide')
+
     nextButton.addEventListener('click', () => {
-        const regex = new RegExp(`^${category.id}-tripplet(-\\d+)?$`);
 
-        const trippletContainer = [...document.querySelectorAll('[id]')].find(element => regex.test(element.id));
-        const currentTrippletNo = parseInt(trippletContainer.id.split('-')[2])
+        backButton.classList.remove('hide')
 
-        const nextTripplet = getNextTripplet(category.projects, currentTrippletNo)
+        const trippletContainer = [...document.querySelectorAll('[id]')].find(element => regex.test(element.id))
+        const currentLastProjectSliceIndex = parseInt(trippletContainer.id.split('-')[2])
+        const remainingProjects = noProjects - currentLastProjectSliceIndex
 
-        for(let i=0; i < nextTripplet.length; i++) {
-            const projectCard = document.getElementById(`project-card-${category.id}-${i+1}`)
-            const tdElements = projectCard.querySelectorAll('td');
-            tdElements[0].textContent = nextTripplet[i].title
-            tdElements[1].textContent = nextTripplet[i].description
-            const span = document.createElement("span")
-            const span1 = document.createElement("span")
-            span.textContent = "test"
-            span1.textContent = "test1"
-            tdElements[2].replaceChildren(span, span1)
+        const nextTripplet = remainingProjects > 3
+            ? category.projects.slice(currentLastProjectSliceIndex, currentLastProjectSliceIndex + 3)
+            : category.projects.slice(currentLastProjectSliceIndex, currentLastProjectSliceIndex + (noProjects - currentLastProjectSliceIndex) + 1)
+
+        const nextCards = nextTripplet.map(project => createProjectContainer(project))
+
+        trippletContainer.replaceChildren(...nextCards)
+
+        if(remainingProjects > 3)
+            trippletContainer.id = `${category.id}-tripplet-${currentLastProjectSliceIndex + 3}`
+        else {
+            nextButton.classList.add('hide')
+            trippletContainer.id = `${category.id}-tripplet-${(noProjects - remainingProjects) + 1}`
         }
+    })
 
-        const nextTrippletId = (currentTrippletNo + 1)%category.projects.length > totalTriplets
-            ? (currentTrippletNo + 1)%category.projects.length
-            : 1
+    backButton.addEventListener('click', () => {
 
-        console.log({nextTrippletId})
-        console.log("------")
+        backButton.classList.remove('hide')
 
-    
+        const trippletContainer = [...document.querySelectorAll('[id]')].find(element => regex.test(element.id))
+        const currentLastProjectSliceIndex = parseInt(trippletContainer.id.split('-')[2])
+        const remainingProjects = noProjects - currentLastProjectSliceIndex
 
-        trippletContainer.id = `${category.id}-tripplet-${(currentTrippletNo + 1)%category.projects.length}`
-    });
+        const nextTripplet = remainingProjects > 3
+            ? category.projects.slice(currentLastProjectSliceIndex, currentLastProjectSliceIndex + 3)
+            : category.projects.slice(currentLastProjectSliceIndex, currentLastProjectSliceIndex + (noProjects - currentLastProjectSliceIndex) + 1)
+
+        const nextCards = nextTripplet.map(project => createProjectContainer(project))
+
+        trippletContainer.replaceChildren(...nextCards)
+
+        if(remainingProjects > 3)
+            trippletContainer.id = `${category.id}-tripplet-${currentLastProjectSliceIndex + 3}`
+        else {
+            nextButton.classList.add('hide')
+            trippletContainer.id = `${category.id}-tripplet-${(noProjects - remainingProjects) + 1}`
+        }
+    })
+
 })

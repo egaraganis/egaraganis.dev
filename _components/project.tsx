@@ -1,6 +1,6 @@
 export default (data: Lume.Data, helpers: Lume.Helpers) => (
    <div className="project-container">
-      <table id={data.id}>
+      <table>
          <tr>
             <td>{data.project.title}</td>
          </tr>
