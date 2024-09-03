@@ -24,6 +24,19 @@ h1 {
    margin-bottom: 0px;
 }
 
+p {
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+ol {
+   margin-top: 5px;
+}
+
+ol li {
+   margin-top: 4px;
+}
+
 .main-container {
    width: 75vw;
    margin-left: 280px;

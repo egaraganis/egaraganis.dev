@@ -2,10 +2,10 @@
    "categories": [
       {
          "id": "ai",
-         "title": "Artificial Intelligence / Machine Learning",
+         "title": "AI / ML",
          "projects": [
             {
-               "title": "Bank System Client Classificator",
+               "title": "Bank Client Classifier",
                "description": "Implementing a model that classifies clients of a bank as good/bad for loaning, using data exploration and features selection methods.",
                "langs": ["python", "sklearn"],
                "code": "https://github.com/VangelisGara/Bank-System-Client-Classificator"
@@ -50,7 +50,7 @@
       },
       {
          "id": "web",
-         "title": "Web Development",
+         "title": "Web Apps",
          "projects": [
             {
                "title": "DEV STUDY",
@@ -97,9 +97,45 @@
          ]
       },
       {
-         "id": "ds",
-         "title": "Data Structures",
+         "id": "comp",
+         "title": "Compilers",
          "projects": [
+            {
+               "title": "Parsing With Java",
+               "description": "Implementing a hand-written recursive descent parser and generated ones with the help of   Java,  Java CUP  and  JFlex.",
+               "langs": ["java", "jflex", "jcup"],
+               "code": "https://github.com/VangelisGara/Java-Parsers"
+            },
+            {
+               "title": "Semantic Analysis For Minijava",
+               "description": "Semanting analysis on minijava inputs, using symbol tables and applying type checking with the help of visitor pattern.",
+               "langs": ["java", "javacc", "jtb"],
+               "code": "https://github.com/VangelisGara/Semantic-Analysis-for-Minijava"
+            },
+            {
+               "title": "Generating Intermediate Code",
+               "description": "Using the visitor pattern to produce linear level IR for a subset of instructions of LLVM language and producing code that can be compiled with C-Lang.",
+               "langs": ["java", "llvm", "clang"],
+               "code": "https://github.com/VangelisGara/Generating-intermediate-code-for-Minijava"
+            }
+         ]
+      },
+      {
+         "id": "lowlevel",
+         "title": "Lower Level Stuff",
+         "projects": [
+            {
+               "title": "Game of life",
+               "description": "The Conway's fampus game of life problem, implemented with parallel programming. Extensive analysis about performance and metrics, on each method, is followed.",
+               "langs": ["c", "mpi", "omp", "cuda"],
+               "code": "https://github.com/Pantokratoras7/Game-of-Life"
+            },
+            {
+               "title": "Minisearch",
+               "description": "A simple google-like search engine that uses inverted index to store text documents and can answer queries based on top-k documents relevant to those queries.",
+               "langs": ["c"],
+               "code": "https://github.com/VangelisGara/minisearch-engine"
+            },
             {
                "title": "Trie",
                "description": "An inverted index implemented as a trie, used to store words from big documents in order to query them. Used as part of Minisearch project.",
@@ -123,24 +159,6 @@
                "description": "A skiplists & chained hashing  implementation for fast accessing to university records. Storing complexity 0(n), accessing O(1) and range queries O(k).",
                "langs": ["c"],
                "code": "https://github.com/VangelisGara/skiplist"
-            }
-         ]
-      },
-      {
-         "id": "lowlevel",
-         "title": "Low level programming",
-         "projects": [
-            {
-               "title": "Game of life",
-               "description": "The Conway's fampus game of life problem, implemented with parallel programming. Extensive analysis about performance and metrics, on each method, is followed.",
-               "langs": ["c", "mpi", "omp", "cuda"],
-               "code": "https://github.com/Pantokratoras7/Game-of-Life"
-            },
-            {
-               "title": "Minisearch",
-               "description": "A simple google-like search engine that uses inverted index to store text documents and can answer queries based on top-k documents relevant to those queries.",
-               "langs": ["c"],
-               "code": "https://github.com/VangelisGara/minisearch-engine"
             },
             {
                "title": "Writer-Readers",
@@ -153,30 +171,6 @@
                "description": "A text processing engine that answers queries by creating multiple workers with fork, communicating through named pipes,low level I/O and signals and by analyzing log files with bash scripting",
                "langs": ["c", "bash"],
                "code": "https://github.com/VangelisGara/jobexecutor"
-            }
-         ]
-      },
-      {
-         "id": "comp",
-         "title": "Compilers",
-         "projects": [
-            {
-               "title": "Parsing With Java",
-               "description": "Implementing a hand-written recursive descent parser and generated ones with the help of   Java,  Java CUP  and  JFlex.",
-               "langs": ["java", "jflex", "jcup"],
-               "code": "https://github.com/VangelisGara/Java-Parsers"
-            },
-            {
-               "title": "Semantic Analysis For Minijava",
-               "description": "Semanting analysis on minijava inputs, using symbol tables and applying type checking with the help of visitor pattern.",
-               "langs": ["java", "javacc", "jtb"],
-               "code": "https://github.com/VangelisGara/Semantic-Analysis-for-Minijava"
-            },
-            {
-               "title": "Generating Intermediate Code",
-               "description": "Using the visitor pattern to produce linear level IR for a subset of instructions of LLVM language and producing code that can be compiled with C-Lang.",
-               "langs": ["java", "llvm", "clang"],
-               "code": "https://github.com/VangelisGara/Generating-intermediate-code-for-Minijava"
             }
          ]
       }

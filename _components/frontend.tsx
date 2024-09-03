@@ -15,38 +15,38 @@ helpers: Lume.Helpers
             <img src="/assets/stack/lume.svg" width={40} alt="Lume logo" />
             <div>
                 <h4>Lume</h4>
-                <p>My primary SSG framework, for static websites.</p>
+                <p>For Static Websites</p>
             </div>
         </div>
         <div class="tech">
             <img src="/assets/stack/nextjs.svg" width={40} alt="Next.JS logo" />
             <div>
                 <h4>Next.JS</h4>
-                <p>My versatile web framework the past 4 years.</p>
+                <p>> 4 years</p>
             </div>
         </div>
         <div class="tech">
             <img src="/assets/stack/react.svg" width={40} alt="React logo" />
             <div>
                 <h4>React</h4>
-                <p>My primary JS framework the past 6 years.</p>
+                <p>> 6 years</p>
             </div>
         </div>
         <div class="tech">
             <div>
                 <img src="/assets/stack/html.svg" width={40} alt="HTML and CSS logo" />
-                <img src="/assets/stack/css.svg" width={40} alt="My Happy SVG" style={{ marginTop: -30, marginLeft: -5 }} />
+                <img src="/assets/stack/css.svg" width={40} alt="My Happy SVG" style={{ marginTop: -40, marginLeft: -27 }} />
             </div>
             <div>
                 <h4>HTML + CSS</h4>
-                <p>I love writing plain old native HTML and CSS.</p>
+                <p>Highly experienced</p>
             </div>
         </div>
         <div class="tech">
             <img src="/assets/stack/react-native.svg" width={40} alt="My Happy SVG" />
             <div>
                 <h4>React Native</h4>
-                <p>I maintain my React knowledge on mobile development. </p>
+                <p>For Mobile Development </p>
             </div>
         </div>
         <div class="tech">
@@ -54,7 +54,7 @@ helpers: Lume.Helpers
             <div>
                 <h4>Tauri</h4>
                 <p>
-                    For isomorphic software across different devices.
+                    For Cross Desktop Development
                 </p>
             </div>
         </div>

@@ -1,7 +1,5 @@
 .category-projects-container {
    padding-bottom: 30px;
-   padding-top: 20px;
-   padding-left: 10px;
    padding-right: 10px;
    display: flex;
    gap: 15px;
@@ -48,6 +46,7 @@ tr:nth-child(1) {
 
 td > span {
    font-size: medium;
+   opacity: 60%;
 }
 
 td > span:not(:first-child) {

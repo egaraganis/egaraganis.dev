@@ -11,19 +11,19 @@ helpers: Lume.Helpers
         <div class="tech-vertical">
             <img src="/assets/stack/elastic.png" width={100} alt="React logo" />
             <p>
-                I have honed myself with Elastic's analytics engine and Java/JS client for over 5 years.
+                > 5 years, Highly Experienced
             </p>
         </div>
         <div class="tech-vertical">
-            <img src="/assets/stack/neo4j.png" width={100} alt="Lume logo" />
+            <img src="/assets/stack/neo4j.png" width={80} alt="Lume logo" />
             <p>
-                Experienced with Neo4j's graph database and its graph data science ecosystem.
+                Familiar with Neo4j's DB and DS ecosystem.
             </p>
         </div>
         <div class="tech-vertical">
             <img src="/assets/stack/mysql.png" width={80} alt="Next.JS logo" style={{marginTop: -15}} />
             <p>
-                I have developed various projects atop SQLs transactional fashion.
+                Confident with MySQL dbs.
             </p>
         </div>
     </div>

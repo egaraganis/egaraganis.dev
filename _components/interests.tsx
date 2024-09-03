@@ -3,7 +3,7 @@ export default (
    helpers: Lume.Helpers
 ) => (
    <div id="interests" className="interests-container">
-      <h1>Stack</h1>
-      <p>a software engineer</p>
+      <h1>Interests</h1>
+      <p></p>
    </div>
 );

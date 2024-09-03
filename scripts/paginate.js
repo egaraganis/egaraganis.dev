@@ -72,26 +72,33 @@ data.categories.forEach((category, index) => {
 
     backButton.addEventListener('click', () => {
 
-        backButton.classList.remove('hide')
-
         const trippletContainer = [...document.querySelectorAll('[id]')].find(element => regex.test(element.id))
         const currentLastProjectSliceIndex = parseInt(trippletContainer.id.split('-')[2])
-        const remainingProjects = noProjects - currentLastProjectSliceIndex
 
-        const nextTripplet = remainingProjects > 3
-            ? category.projects.slice(currentLastProjectSliceIndex, currentLastProjectSliceIndex + 3)
-            : category.projects.slice(currentLastProjectSliceIndex, currentLastProjectSliceIndex + (noProjects - currentLastProjectSliceIndex) + 1)
+        var nextTripplet
 
-        const nextCards = nextTripplet.map(project => createProjectContainer(project))
-
-        trippletContainer.replaceChildren(...nextCards)
-
-        if(remainingProjects > 3)
-            trippletContainer.id = `${category.id}-tripplet-${currentLastProjectSliceIndex + 3}`
-        else {
-            nextButton.classList.add('hide')
-            trippletContainer.id = `${category.id}-tripplet-${(noProjects - remainingProjects) + 1}`
+        if(currentLastProjectSliceIndex === noProjects) {
+            nextButton.classList.remove('hide')
+            const noTripplets = Math.floor(noProjects/3)
+            const lastPageNoCards = noProjects - (noTripplets*3)
+            const newLastProjectsSliceIndex = noProjects - lastPageNoCards
+            nextTripplet = category.projects.slice(newLastProjectsSliceIndex - 3, newLastProjectsSliceIndex)
+            trippletContainer.id = `${category.id}-tripplet-${newLastProjectsSliceIndex}`
         }
+        else {
+            if(currentLastProjectSliceIndex === 6) {
+                nextTripplet = category.projects.slice(0, 3)
+                trippletContainer.id = `${category.id}-tripplet-3`
+                backButton.classList.add('hide')
+            }
+            else {
+                nextTripplet = category.projects.slice(currentLastProjectSliceIndex - 3, currentLastProjectSliceIndex)
+                trippletContainer.id = `${category.id}-tripplet-${currentLastProjectSliceIndex - 3}`
+            }
+        }
+
+        const prevCards = nextTripplet.map(project => createProjectContainer(project))
+        trippletContainer.replaceChildren(...prevCards)
     })
 
 })

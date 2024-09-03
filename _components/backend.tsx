@@ -5,8 +5,7 @@ helpers: Lume.Helpers
 <div class="back-end-container">
     <h2>On Backend Development</h2>
     <p>
-        I consider myself an experienced backend developer exposed on Microservices & RESTful architectures,
-        on both Java and JS backend codebases.
+        I've been working as backend development with Microservices & RESTful architectures, on both Java and JS backend codebases.
     </p>
     <div>
         <div>
@@ -16,7 +15,7 @@ helpers: Lume.Helpers
                 <div>
                     <h4>Spring</h4>
                     <p>
-                        I have familiarized myself with the Spring ecosystem the past 4 years, including Spring Security, Spring Data & Hibernate.
+                        > 4 years + Knowledge on Spring Security, Data & Hibernate
                     </p>
                 </div>
             </div>
@@ -25,7 +24,7 @@ helpers: Lume.Helpers
                 <div>
                     <h4>NodeJS</h4>
                     <p>
-                        I am experienced with JS backend codebases, such as ExpressJS.
+                        Capable with JS backend codebases, such as ExpressJS
                     </p>
                 </div>
             </div>
@@ -37,13 +36,13 @@ helpers: Lume.Helpers
                 <div>
                     <h4>Kafka</h4>
                     <p>
-                        I have worked with Kafka event's streaming architecture.
+                        Worked with Kafka event's streaming architecture.
                     </p>
                 </div>
             </div>
             <h6>Testing</h6>
             <p>
-                Committed on Test-Driven Development (TDD) approach with Spock and JUnit.
+                Confident in testing with <a>Spock</a> and <a>JUnit</a>
             </p>
         </div>
     </div>

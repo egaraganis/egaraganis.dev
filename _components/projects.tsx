@@ -4,11 +4,10 @@ export default (
 ) => (
    <div id="projects" className="projects-container">
       <h1>Projects</h1>
-      <p>a software engineer</p>
       {projects.categories.map((category, index) => (
          <div key={index}>
             <div class="navigable-header">
-               <h2>{category.title}</h2>
+               <h3>{category.title}</h3>
                <div>
                   <button class="hide" id={`backButton-${category.id}`}>
                      <img src="/assets/next.png" width={30} alt="React logo" />

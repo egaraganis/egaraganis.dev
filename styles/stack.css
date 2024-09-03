@@ -75,7 +75,7 @@
 }
 
 .dbs-container > div {
-   margin-top: 5px;
+   margin-top: 15px;
    display: flex;
    gap: 20px;
    flex-grow: 1;
@@ -111,7 +111,9 @@
 }
 
 .prolangs-container > div {
+   margin-top: 15px;
    display: flex;
+   align-items: center;
    gap: 20px;
 }
 
@@ -125,27 +127,27 @@ h6 {
 
 .rest-container {
    margin-top: 20px;
-   display: grid;
-   grid-template-columns: 3fr 1fr;
-   grid-template-rows: 1fr 1fr;
-   gap: 0px 30px;
-   grid-template-areas:
-      "ds-container devops-container on-blockchain"
-      "ds-container on-cloud linux-container";
+   display: flex;
+   justify-content: space-between;
 }
 
-.ds-container { grid-area: ds-container; }
+.others-container {
+   width: 50%;
+}
+
+.others-container > ul {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 5px;
+   padding-left: 15px;
+}
+
+.others-container > ul > li {
+   width: 49%;
+}
 
 .ds-container > div {
    display: flex;
    align-items: center;
    gap: 25px;
 }
-
-.devops-container { grid-area: devops-container; }
-
-.linux-container { grid-area: linux-container; }
-
-.on-blockchain { grid-area: on-blockchain; }
-
-.on-cloud { grid-area: on-cloud; }

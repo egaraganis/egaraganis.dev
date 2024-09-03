@@ -8,38 +8,26 @@ helpers: Lume.Helpers
         <div class="lang-vertical">
             <div>
                 <img src="/assets/stack/java.svg" width={50} alt="Lume logo" />
-                <h4>Java</h4>
+                <p><b>Java / Groovy </b> > 7 years</p>
             </div>
-            <p>
-                Java / Groovy developer for over 7 years.
-            </p>
         </div>
         <div class="lang-vertical">
             <div>
                 <img src="/assets/stack/js.svg" width={50} alt="Next.JS logo" />
-                <h4>JS / TS</h4>
+                <p><b>JS / TS </b> > 8 years</p>
             </div>
-            <p>
-                JS developer for over 8 years.
-            </p>
         </div>
         <div class="lang-vertical">
             <div>
                 <img src="/assets/stack/python.svg" width={50} alt="React logo" />
-                <h4>Python</h4>
+                <p><b>Python </b> > 5 years</p>
             </div>
-            <p>
-                Variety of data science projects with Python.
-            </p>
         </div>
         <div class="lang-vertical">
             <div>
-                <h4>C / C++ / </h4>
-                <img src="/assets/stack/rust.svg" width={35} alt="React logo" />
+                <h4>C / C++ / </h4> <img src="/assets/stack/rust.svg" width={30} alt="React logo" />
+                <p> Handful experience</p>
             </div>
-            <p>
-                Handful experience on low-level programming.
-            </p>
         </div>
     </div>
 </div>
