@@ -1,8 +1,11 @@
-.side-container {
+.side-container > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .v-container {
-    width: 30%;
+    width: 23%;
 }
 
 .v-container > ul {
@@ -12,18 +15,27 @@
 
 .hackathon-div {
     margin-bottom: 10px;
-    text-align: center;
     box-shadow: rgba(0, 0, 0, 0.07) 0px 0px 0px 1px;
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
+}
+
+.hackathon-div > div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .v-container > ul > li {
+    padding: 20px;
     margin-bottom: 10px;
-    text-align: center;
     box-shadow: rgba(0, 0, 0, 0.07) 0px 0px 0px 1px;
     border-radius: 5px;
-    padding: 10px;
+}
+
+.v-container > ul > li > div {
+    display: flex;
+    gap: 20px;
 }
 
 .v-container > ul > li > div > h3 {
@@ -31,7 +43,7 @@
 }
 
 .ap-container {
-    width: 70%;
+    width: 75%;
 }
 
 .ap-container > ul {
@@ -63,7 +75,7 @@
 
 .image-container-2 {
     border-radius: 5px;
-    min-width: 270px;
-    height: 150px;
+    width: 50px;
+    height: 50px;
     background-color: gainsboro;
 }

@@ -4,6 +4,6 @@ export default (
 ) => (
    <div id="interests" className="interests-container">
       <h1>Interests</h1>
-      <p></p>
+      <p>Apart from programming, I am a bjj practitioner.</p>
    </div>
 );

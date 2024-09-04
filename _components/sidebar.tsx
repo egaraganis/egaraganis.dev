@@ -1,6 +1,8 @@
 export default (data: Lume.Data, helpers: Lume.Helpers) => (
    <nav>
-      <div class="me" />
+      <a href="#about">
+         <div class="me" />
+      </a>
       <a href="#about">
          <img src="/assets/about.png" width="16px" />
          About

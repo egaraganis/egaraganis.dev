@@ -16,6 +16,7 @@
 .navigable-header {
    display: flex;
    justify-content: space-between;
+   align-items: center;
 }
 
 .navigable-header button {
@@ -23,12 +24,6 @@
    border: 0px;
    cursor: pointer;
 }
-
-.navigable-header > div > :first-child {
-   transform: rotate(180deg);
-   padding-top: 3.5px;
-}
-
 
 .table-header {
    font-weight: 500;

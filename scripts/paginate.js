@@ -1,5 +1,8 @@
-const response = await fetch('../_data/projects.json')
-const data = await response.json()
+const projectsResponse = await fetch('../_data/projects.json')
+const articlesResponse = await fetch('../_data/articles.json')
+
+const projectsData = await projectsResponse.json()
+const articlesData = await articlesResponse.json()
 
 function createProjectContainer(project) {
     const container = document.createElement('div')
@@ -36,69 +39,94 @@ function createProjectContainer(project) {
     return container
 }
 
-data.categories.forEach((category, index) => {
+function createArticleContainer(article) {
+    const container = document.createElement('li')
 
-    const regex = new RegExp(`^${category.id}-tripplet(-\\d+)?$`)
-    const noProjects = category.projects.length
+    const img = document.createElement('div')
+    img.classList.add("image-container")
+    container.appendChild(img)
 
-    const backButton = document.getElementById(`backButton-${category.id}`)
-    const nextButton = document.getElementById(`nextButton-${category.id}`)
+    const div = document.createElement('div')
+    const h3 = document.createElement('h3')
+    h3.textContent = article.title
+    const p = document.createElement('p')
+    p.textContent = article.description
+    div.appendChild(h3)
+    div.appendChild(p)
 
-    if(noProjects === 3) nextButton.classList.add('hide')
+    container.appendChild(div)
+
+    return container
+}
+
+function registerPaginationForElement(elementId, elementCreator, elements) {
+    const regex = new RegExp(`^${elementId}-tripplet(-\\d+)?$`)
+    const noElements = elements.length
+
+    const backButton = document.getElementById(`backButton-${elementId}`)
+    const nextButton = document.getElementById(`nextButton-${elementId}`)
+
+    if (noElements === 3) nextButton.classList.add('hide')
 
     nextButton.addEventListener('click', () => {
-
         backButton.classList.remove('hide')
 
         const trippletContainer = [...document.querySelectorAll('[id]')].find(element => regex.test(element.id))
-        const currentLastProjectSliceIndex = parseInt(trippletContainer.id.split('-')[2])
-        const remainingProjects = noProjects - currentLastProjectSliceIndex
+        const currentLastElementSliceIndex = parseInt(trippletContainer.id.split('-')[2])
+        const remainingProjects = noElements - currentLastElementSliceIndex
 
         const nextTripplet = remainingProjects > 3
-            ? category.projects.slice(currentLastProjectSliceIndex, currentLastProjectSliceIndex + 3)
-            : category.projects.slice(currentLastProjectSliceIndex, currentLastProjectSliceIndex + (noProjects - currentLastProjectSliceIndex) + 1)
+            ? elements.slice(currentLastElementSliceIndex, currentLastElementSliceIndex + 3)
+            : elements.slice(currentLastElementSliceIndex, currentLastElementSliceIndex + (noElements - currentLastElementSliceIndex))
 
-        const nextCards = nextTripplet.map(project => createProjectContainer(project))
+        const nextElements = nextTripplet.map(element => elementCreator(element))
 
-        trippletContainer.replaceChildren(...nextCards)
+        trippletContainer.replaceChildren(...nextElements)
 
-        if(remainingProjects > 3)
-            trippletContainer.id = `${category.id}-tripplet-${currentLastProjectSliceIndex + 3}`
+        if (remainingProjects > 3)
+            trippletContainer.id = `${elementId}-tripplet-${currentLastElementSliceIndex + 3}`
         else {
             nextButton.classList.add('hide')
-            trippletContainer.id = `${category.id}-tripplet-${(noProjects - remainingProjects) + 1}`
+            trippletContainer.id = `${elementId}-tripplet-${currentLastElementSliceIndex + (noElements - currentLastElementSliceIndex)}`
         }
     })
 
     backButton.addEventListener('click', () => {
 
         const trippletContainer = [...document.querySelectorAll('[id]')].find(element => regex.test(element.id))
-        const currentLastProjectSliceIndex = parseInt(trippletContainer.id.split('-')[2])
+        const currentLastElementSliceIndex = parseInt(trippletContainer.id.split('-')[2])
 
         var nextTripplet
 
-        if(currentLastProjectSliceIndex === noProjects) {
+        if(currentLastElementSliceIndex === noElements) {
             nextButton.classList.remove('hide')
-            const noTripplets = Math.floor(noProjects/3)
-            const lastPageNoCards = noProjects - (noTripplets*3)
-            const newLastProjectsSliceIndex = noProjects - lastPageNoCards
-            nextTripplet = category.projects.slice(newLastProjectsSliceIndex - 3, newLastProjectsSliceIndex)
-            trippletContainer.id = `${category.id}-tripplet-${newLastProjectsSliceIndex}`
+            const noTripplets = Math.floor(noElements/3)
+            const lastPageNoCards = noElements - (noTripplets*3)
+            const newLastProjectsSliceIndex = noElements - lastPageNoCards
+            nextTripplet = elements.slice(newLastProjectsSliceIndex - 3, newLastProjectsSliceIndex)
+            trippletContainer.id = `${elementId}-tripplet-${newLastProjectsSliceIndex}`
+
+
+            if (currentLastElementSliceIndex < 6) {
+                backButton.classList.add('hide')
+            }
         }
         else {
-            if(currentLastProjectSliceIndex === 6) {
-                nextTripplet = category.projects.slice(0, 3)
-                trippletContainer.id = `${category.id}-tripplet-3`
+            if(currentLastElementSliceIndex === 6) {
+                nextTripplet = elements.slice(0, 3)
+                trippletContainer.id = `${elementId}-tripplet-3`
                 backButton.classList.add('hide')
             }
             else {
-                nextTripplet = category.projects.slice(currentLastProjectSliceIndex - 3, currentLastProjectSliceIndex)
-                trippletContainer.id = `${category.id}-tripplet-${currentLastProjectSliceIndex - 3}`
+                nextTripplet = elements.slice(currentLastElementSliceIndex - 3, currentLastElementSliceIndex)
+                trippletContainer.id = `${elementId}-tripplet-${currentLastElementSliceIndex - 3}`
             }
         }
 
-        const prevCards = nextTripplet.map(project => createProjectContainer(project))
+        const prevCards = nextTripplet.map(project => elementCreator(project))
         trippletContainer.replaceChildren(...prevCards)
     })
+}
 
-})
+projectsData.categories.forEach(category => registerPaginationForElement(category.id, createProjectContainer, category.projects))
+registerPaginationForElement("articles", createArticleContainer, articlesData)

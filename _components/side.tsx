@@ -4,55 +4,68 @@ export default (
 ) => (
     <div id="side" className="side-container">
         <h1>Side Quests</h1>
-        <div class="row">
+        <div>
             <div class="ap-container">
-                <h2>Articles & Presentations</h2>
-                <ul>
-                    {articles.map((article, index) => (
-                        <li>
-                            <div class="image-container"></div>
-                            <div>
-                                <h3>{article.title}</h3>
-                                <p>{article.description}</p>
-                            </div>
-                        </li>
-                    ))}
+                <div class="navigable-header">
+                    <h2>Articles & Presentations</h2>
+                    <div>
+                        <button class="hide" id="backButton-articles">
+                            <img src="/assets/left.png" width={30} alt="React logo" />
+                        </button>
+                        <button id="nextButton-articles">
+                            <img src="/assets/next.png" width={30} alt="React logo" />
+                        </button>
+                    </div>
+                </div>
+                <ul id="articles-tripplet-3">
+                    <li>
+                        <div class="image-container"></div>
+                        <div>
+                            <h3>{articles[0].title}</h3>
+                            <p>{articles[0].description}</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="image-container"></div>
+                        <div>
+                            <h3>{articles[1].title}</h3>
+                            <p>{articles[1].description}</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="image-container"></div>
+                        <div>
+                            <h3>{articles[2].title}</h3>
+                            <p>{articles[2].description}</p>
+                        </div>
+                    </li>
                 </ul>
             </div>
             <div class="v-container">
                 <h2>Volunteering</h2>
                 <ul>
                     <li>
-                        <div class="image-container-2"></div>
                         <div>
-                            <h3>
-                                Co-founder of <a href="cognihub.gr">Cognihub</a>
-                            </h3>
-                            <p>
-                                An interdisciplinary students hub revolving
-                                cognitive sciences.
-                            </p>
+                            <div class="image-container-2"></div>
+                            <h3>Co-creator of <a href="cognihub.gr">Cognihub</a></h3>
                         </div>
+                        <p>An interdisciplinary students hub revolving cognitive sciences.</p>
                     </li>
                     <li>
-                        <div class="image-container-2"></div>
                         <div>
-                            <h3>
-                                Co-founder of <a href="cognihub.gr">Pyrsos</a>
-                            </h3>
+                            <div class="image-container-2"></div>
+                            <h3>Co-creator of <a href="cognihub.gr">Pyrsos</a></h3>
+                            </div>
                             <p>Programmers spot.</p>
-                        </div>
                     </li>
                 </ul>
-                <h2>Hackathons & Enterpreneurship</h2>
+                <h2>Hackathons</h2>
                 <div class="hackathon-div">
-                    <div class="image-container-2"></div>
                     <div>
-                        <h3>
-                            Co-founder of <a href="cognihub.gr">Pyrsos</a>
-                        </h3>
+                        <div class="image-container-2"></div>
+                        <h3>European Hackathon EUvsCovid</h3>
+                        </div>
                         <p>Programmers spot.</p>
-                    </div>
                 </div>
             </div>
         </div>
