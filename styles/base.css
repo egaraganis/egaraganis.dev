@@ -38,9 +38,13 @@ ol li {
    margin-top: 4px;
 }
 
+section:target {
+   scroll-margin-top: 20px;
+}
+
 .main-container {
    width: 75vw;
-   margin-left: 280px;
+   margin-left: 330px;
 }
 
 .row {

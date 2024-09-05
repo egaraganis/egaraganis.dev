@@ -9,11 +9,11 @@
    margin-top: 15px;
 }
 
-.stack-container h2 {
+.stack-container h3 {
    margin-bottom: 0px;
 }
 
-.container {
+.fields-of-knowledge {
    display: grid;
    grid-template-columns: 2fr 0.5fr 0.5fr;
    gap: 10px 20px;
@@ -23,6 +23,48 @@
    "dbs-container frontend-container frontend-container"
    "prolangs-container prolangs-container prolangs-container";
 }
+
+.tech {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+.tech h4 {
+   margin-bottom: -12px;
+}
+
+.tech-vertical {
+   display: flex;
+   flex-direction: column;
+   width: 33%;
+}
+
+.lang-vertical {
+   width: 25%;
+}
+
+.lang-vertical > div {
+   display: flex;
+   align-items: center;
+   gap: 5px;
+}
+
+.fields-of-knowledge h6 {
+   margin-top: 5px;
+   margin-bottom: -6px;
+   color: gray;
+   font-weight: 400;
+   font-size: 13px;
+}
+
+.rest-container {
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-between;
+}
+
+/* ====== Frontend ====== */
 
 .front-end-container {
    grid-area: frontend-container;
@@ -41,6 +83,8 @@
    display: flex;
    width: 48%;
 }
+
+/* ====== Backend ====== */
 
 .back-end-container {
    grid-area: backend-container;
@@ -67,6 +111,8 @@
    width: 35%;
 }
 
+/* ====== Databases ====== */
+
 .dbs-container {
    grid-area: dbs-container;
    display: flex;
@@ -81,29 +127,7 @@
    align-items: center;
 }
 
-.tech {
-   display: flex;
-   align-items: center;
-   gap: 10px;
-}
-
-.tech h4 {
-   margin-bottom: -12px;
-}
-
-.tech-vertical {
-   display: flex;
-   flex-direction: column;
-   width: 33%;
-}
-
-.lang-vertical {
-   width: 25%;
-}
-
-.lang-vertical>div {
-   display: flex;
-}
+/* ====== Programming Languages ====== */
 
 .prolangs-container {
    grid-area: prolangs-container;
@@ -116,19 +140,15 @@
    gap: 20px;
 }
 
-h6 {
-   margin-top: 5px;
-   margin-bottom: -6px;
-   color: gray;
-   font-weight: 400;
-   font-size: 13px;
+/* ====== Data Science ====== */
+
+.ds-container > div {
+   display: flex;
+   align-items: center;
+   gap: 25px;
 }
 
-.rest-container {
-   margin-top: 20px;
-   display: flex;
-   justify-content: space-between;
-}
+/* ====== Other ====== */
 
 .others-container {
    width: 50%;
@@ -145,8 +165,4 @@ h6 {
    width: 49%;
 }
 
-.ds-container > div {
-   display: flex;
-   align-items: center;
-   gap: 25px;
-}
+

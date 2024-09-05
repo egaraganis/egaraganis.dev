@@ -3,7 +3,7 @@ export default (
 helpers: Lume.Helpers
 ) => (
 <div class="back-end-container">
-    <h2>On Backend Development</h2>
+    <h3>On Backend Development</h3>
     <p>
         I've been working as backend development with Microservices & RESTful architectures, on both Java and JS backend codebases.
     </p>
@@ -24,7 +24,7 @@ helpers: Lume.Helpers
                 <div>
                     <h4>NodeJS</h4>
                     <p>
-                        Capable with JS backend codebases, such as ExpressJS
+                        Capable with JS backend codebases, such as <a href="https://expressjs.com/">ExpressJS</a>
                     </p>
                 </div>
             </div>

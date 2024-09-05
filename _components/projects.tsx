@@ -2,7 +2,7 @@ export default (
    { title, children, comp, projects }: Lume.Data,
    helpers: Lume.Helpers
 ) => (
-   <div id="projects" className="projects-container">
+   <section id="projects" className="projects-container">
       <h1>Projects</h1>
       {projects.categories.map((category, index) => (
          <div key={index}>
@@ -24,5 +24,5 @@ export default (
             </div>
          </div>
       ))}
-   </div>
+   </section>
 );

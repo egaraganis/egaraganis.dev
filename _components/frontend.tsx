@@ -3,7 +3,7 @@ export default (
 helpers: Lume.Helpers
 ) => (
 <div class="front-end-container">
-    <h2>On Frontend Development</h2>
+    <h3>On Frontend Development</h3>
     <p>
         I've been developing frontend applications for over 8 years. I
         have been experimenting with various frameworks and technologies,
@@ -43,14 +43,14 @@ helpers: Lume.Helpers
             </div>
         </div>
         <div class="tech">
-            <img src="/assets/stack/react-native.svg" width={40} alt="My Happy SVG" />
+            <img src="/assets/stack/react-native.svg" width={40} alt="React Native logo" />
             <div>
                 <h4>React Native</h4>
                 <p>For Mobile Development </p>
             </div>
         </div>
         <div class="tech">
-            <img src="/assets/stack/tauri.svg" width={40} alt="My Happy SVG" />
+            <img src="/assets/stack/tauri.svg" width={40} alt="Tauri logo" />
             <div>
                 <h4>Tauri</h4>
                 <p>

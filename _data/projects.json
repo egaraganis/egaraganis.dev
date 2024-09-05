@@ -5,19 +5,13 @@
          "title": "AI / ML",
          "projects": [
             {
-               "title": "Bank Client Classifier",
-               "description": "Implementing a model that classifies clients of a bank as good/bad for loaning, using data exploration and features selection methods.",
+               "title": "Bank's Clients Classifier",
+               "description": "Implementing a model to classify bank clients as either good or bad loan candidates, utilizing data exploration and feature selection techniques.",
                "langs": ["python", "sklearn"],
                "code": "https://github.com/VangelisGara/Bank-System-Client-Classificator"
             },
             {
-               "title": "Articles Data Mining",
-               "description": "Collecting data, preprocessing, transforming them and applying data mining methods for clustering / classification evaluation.",
-               "langs": ["python", "sklearn"],
-               "code": "https://github.com/VangelisGara/Articles-Data-Mining"
-            },
-            {
-               "title": "Cryptocurrency \\Reco System",
+               "title": "Cryptocurrency Recommentation",
                "description": "A cryptocurrency recommendation system, using sentiment analysis on tweeter data, predicting with knn/ clustering and validating with 10-cross fold validation.",
                "langs": ["c++"],
                "code": "https://bitbucket.org/VangelisGara/project-emirhs3/src/master/"
@@ -33,6 +27,12 @@
                "description": "Implementing clustering algorithms, with K-means and K-medoids compinations, and evaluating it with silhouette evaluation.",
                "langs": ["c++"],
                "code": "https://bitbucket.org/VangelisGara/project-emirhs2/src/master/"
+            },
+            {
+               "title": "Articles Data Mining",
+               "description": "Collecting data, preprocessing, transforming them and applying data mining methods for clustering / classification evaluation.",
+               "langs": ["python", "sklearn"],
+               "code": "https://github.com/VangelisGara/Articles-Data-Mining"
             },
             {
                "title": "Solving problems with prolog",

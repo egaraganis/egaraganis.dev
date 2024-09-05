@@ -3,7 +3,7 @@ export default (
 helpers: Lume.Helpers
 ) => (
 <div class="prolangs-container">
-    <h2>Programming Languages</h2>
+    <h3>Programming Languages</h3>
     <div>
         <div class="lang-vertical">
             <div>

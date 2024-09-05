@@ -2,7 +2,7 @@ export default (
    { title, children, comp, projects }: Lume.Data,
    helpers: Lume.Helpers
 ) => (
-   <div id="experience" className="experience-container">
+   <section id="experience" className="experience-container">
       <h1>Experience</h1>
       <h2>Backend Developer </h2>
       <div className="career-step">
@@ -80,5 +80,5 @@ export default (
             advanced analytics.
          </li>
       </ol>
-   </div>
+   </section>
 );

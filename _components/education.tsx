@@ -2,7 +2,7 @@ export default (
    { title, children, comp, projects }: Lume.Data,
    helpers: Lume.Helpers
 ) => (
-   <div id="education" className="education-container">
+   <section id="education" className="education-container">
       <h1>Education</h1>
       <div className="degree-container">
          <div>
@@ -61,5 +61,5 @@ export default (
             <h6>[1] A. Smith, "An Analysis of Quantum Computing," Journal of Theoretical Physics, vol. 57, no. 4, pp. 231-240, 2023.</h6>
          </div>
       </div>
-   </div>
+   </section>
 );

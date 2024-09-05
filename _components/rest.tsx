@@ -18,9 +18,9 @@ helpers: Lume.Helpers
     <div class="others-container">
         <h3>Other Worth Considering Assets</h3>
         <ul>
-            <li>Software delivery with Docker & Gradle pipelines.</li>
-            <li>Knowledge on Blockchain technologies, including Solidity.</li>
-            <li>Dabbled with Cloud technolgies, such us OpenFaaS.</li>
+            <li>Software delivery with <a href="https://www.docker.com/">Docker</a> & <a href="https://gradle.org/">Gradle</a> pipelines.</li>
+            <li>Knowledge on Blockchain technologies, including <a href="https://soliditylang.org/">Solidity</a>.</li>
+            <li>Dabbled with Cloud technolgies, such us <a href="https://www.openfaas.com/">OpenFaaS</a>.</li>
             <li>Been using Linux and Shell scripting the past 8 years.</li>
         </ul>
     </div>

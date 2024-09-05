@@ -8,9 +8,18 @@
 .project-container {
    min-width: 350px;
    width: 33%;
-   box-shadow: rgba(0, 0, 0, 0.07) 0px 0px 0px 1px;
+   color: black;
+   border: 1px solid rgba(0, 0, 0, 0.07);
    border-radius: 5px;
    padding: 5px;
+}
+
+.project-container:hover  {
+   border: 1px solid #0d45ac;
+   border-radius: 5px;
+   cursor: pointer;
+   color: #0d45ac;
+   opacity: 80%;
 }
 
 .navigable-header {
@@ -41,7 +50,7 @@ tr:nth-child(1) {
 
 td > span {
    font-size: medium;
-   opacity: 60%;
+   opacity: 87%;
 }
 
 td > span:not(:first-child) {

@@ -3,7 +3,7 @@ export default (
 helpers: Lume.Helpers
 ) => (
 <div class="dbs-container">
-    <h2>On Databases</h2>
+    <h3>On Databases</h3>
     <p>
         I have been utilizing both SQL and NoSQL (document and graph-based) for different kinds of needs and architectures.
     </p>

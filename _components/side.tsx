@@ -2,7 +2,7 @@ export default (
     { title, children, comp, articles }: Lume.Data,
     helpers: Lume.Helpers
 ) => (
-    <div id="side" className="side-container">
+    <section id="side" className="side-container">
         <h1>Side Quests</h1>
         <div>
             <div class="ap-container">
@@ -69,5 +69,5 @@ export default (
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 );
