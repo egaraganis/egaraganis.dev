@@ -5,14 +5,25 @@
    justify-content: center;
 }
 
-.education-container > div:first-child {
-   margin-bottom: 30px;
+.education-container .section-header {
+   margin-bottom: -5px;
 }
 
 .degree-container {
-   margin-top: 20px;
+   margin-top: 0px;
    display: flex;
    gap: 50px;
+}
+
+.degree-container h3 {
+   margin-top: -15px;
+   color: #6d6d6d;
+}
+
+.degree-container h4 {
+   color: black;
+   font-size: 20px;
+   margin-bottom: -5px;
 }
 
 .degree-container h6 {
@@ -21,6 +32,7 @@
 
 .degree-container > div:first-child {
    width: 60%;
+   margin-bottom: 30px;
 }
 
 .degree-container > div:nth-child(2) {

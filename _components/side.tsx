@@ -3,8 +3,11 @@ export default (
     helpers: Lume.Helpers
 ) => (
     <section id="side" className="side-container">
-        <h1>Side Quests</h1>
-        <div>
+        <div class="section-header">
+            <img src="/assets/side.svg" width="30"/>
+            <h1>Side Quests</h1>
+        </div>
+        <div class="avh-container">
             <div class="ap-container">
                 <div class="navigable-header">
                     <h2>Articles & Presentations</h2>

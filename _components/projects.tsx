@@ -3,7 +3,10 @@ export default (
    helpers: Lume.Helpers
 ) => (
    <section id="projects" className="projects-container">
-      <h1>Projects</h1>
+      <div class="section-header">
+         <img src="/assets/projects.svg" width="20"/>
+         <h1>Projects</h1>
+      </div>
       {projects.categories.map((category, index) => (
          <div key={index}>
             <div class="navigable-header">

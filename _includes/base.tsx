@@ -17,7 +17,9 @@ export default (
       </head>
       <body>
          <comp.sidebar />
-         <div className="main-container">{children}</div>
+         <div className="main-container">
+            <div class="wave" />
+            {children}</div>
          <script type="module" src="/scripts/paginate.js"></script>
       </body>
    </html>

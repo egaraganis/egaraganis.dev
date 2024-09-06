@@ -3,7 +3,10 @@ export default (
    helpers: Lume.Helpers
 ) => (
    <section id="stack" className="stack-container">
-      <h1>Stack</h1>
+      <div class="section-header">
+         <img src="/assets/stack.svg" width="20"/>
+         <h1>Stack</h1>
+      </div>
       <div class="fields-of-knowledge">
          <comp.frontend />
          <comp.backend />

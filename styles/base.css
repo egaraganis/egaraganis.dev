@@ -1,10 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
+:root {
+   --menu-hover: #f1f1f1;
+   --navbar-width: 180px;
+   --navbar-width-min: 80px;
+   --text-color: black;
+   --background: #f1f1f1;
+   --navbar-dark-primary: #121212;
+   --navbar-dark-secondary: #2c3e50;
+   --navbar-light-primary: #f5f6fa;
+   --navbar-light-secondary: #8392a5;
+}
+
 html {
    scroll-behavior: smooth;
 }
 
 body {
+   background-color: var(--background);
+   color: var(--text-color);
    margin: 0;
    display: flex;
    align-items: center;
@@ -22,7 +36,12 @@ a {
 }
 
 h1 {
-   margin-bottom: 0px;
+   font-weight: 500;
+   font-size: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-weight: 500;
 }
 
 p {
@@ -38,13 +57,28 @@ ol li {
    margin-top: 4px;
 }
 
+.section-header {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
 section:target {
    scroll-margin-top: 20px;
 }
 
 .main-container {
    width: 75vw;
-   margin-left: 330px;
+   margin-left: calc(var(--navbar-width) + 70px);
+}
+
+.wave {
+   background-image: url(/assets/wave.svg);
+   position: fixed;
+   left: -290px;
+   height: 50px;
+   width: 200vh;
+   transform: rotate(90deg);
 }
 
 .row {

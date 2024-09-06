@@ -3,7 +3,10 @@ export default (
    helpers: Lume.Helpers
 ) => (
    <section id="education" className="education-container">
-      <h1>Education</h1>
+      <div class="section-header">
+         <img src="/assets/education.svg" width="40"/>
+         <h1>Education</h1>
+      </div>
       <div className="degree-container">
          <div>
             <h2>Bachelor at Department of Informatics & Telecommunications</h2>
@@ -18,7 +21,7 @@ export default (
             <p>GPA: 7.52 / 10</p>
          </div>
          <div>
-            <h3>Thesis</h3>
+            <h4>Thesis</h4>
             <p>
                During my bachelor thesis, {" "}
                <a href="">
@@ -45,7 +48,7 @@ export default (
             <p>GPA: 8.94 / 10</p>
          </div>
          <div>
-            <h3>Thesis</h3>
+            <h4>Thesis</h4>
             <p>
                During my master thesis, {" "}
                <a href="">

@@ -3,7 +3,10 @@ export default (
    helpers: Lume.Helpers
 ) => (
    <section id="experience" className="experience-container">
-      <h1>Experience</h1>
+      <div class="section-header">
+         <img src="/assets/experience.svg" width="40"/>
+         <h1>Experience</h1>
+      </div>
       <h2>Backend Developer </h2>
       <div className="career-step">
          <h3>Information Technology Support Centre of the Hellenic Army</h3>

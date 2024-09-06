@@ -1,61 +1,51 @@
 export default (data: Lume.Data, helpers: Lume.Helpers) => (
 <nav id="nav-bar">
-   <input id="nav-toggle" type="checkbox" />
-   <div id="nav-header">
-      <label for="nav-toggle"><span id="nav-toggle-burger"></span></label>
-   </div>
    <div id="nav-content">
-      <div class="nav-button">
-         <a href="#about">
-            <div class="me" />
-         </a>
-      </div>
-      <div class="nav-button">
-         <a href="#about">
-            <img src="/assets/test.svg" width="16px" />
+      <a href="#about">
+         <div class="me" />
+      </a>
+      <a href="#about">
+         <div class="nav-button">
+            <i class="icon mdi--user" width="16px" />
             About
-         </a>
-      </div>
-      <div class="nav-button">
-         <a href="#education">
-            <img src="/assets/education.png" width="14px" />
+         </div>
+      </a>
+      <a href="#education">
+         <div class="nav-button">
+            <i class="icon cil--education" width="16px" />
             Education
-         </a>
-      </div>
-      <div class="nav-button">
-         <a href="#stack">
-            <img src="/assets/stack.png" width="14px" />
+         </div>
+      </a>
+      <a href="#stack">
+         <div class="nav-button">
+            <i class="icon layers" width="16px" />
             Stack
-         </a>
-      </div>
-      <div class="nav-button">
-         <a href="#experience">
-            <img src="/assets/experience.png" width="14px" />
+         </div>
+      </a>
+      <a href="#experience">
+         <div class="nav-button">
+            <i class="icon experience" width="10px" />
             Experience
-         </a>
-      </div>
-      <div class="nav-button">
-         <a href="#projects">
-            <img src="/assets/projects.png" width="15px" />
+         </div>
+      </a>
+      <a href="#projects">
+         <div class="nav-button">
+            <i class="icon projects" width="10px" />
             Projects
-         </a>
-      </div>
-      <div class="nav-button">
-         <a href="#side">
-            <img src="/assets/side.png" width="15px" />
+         </div>
+      </a>
+      <a href="#side">
+         <div class="nav-button">
+            <i class="icon side" width="10px" />
             Side Quests
-         </a>
-      </div>
-      <div class="nav-button">
-         <a href="#interests">
-            <img src="/assets/love.png" width="15px" />
+         </div>
+      </a>
+      <a href="#interests">
+         <div class="nav-button">
+            <i class="icon interests" width="10px" />
             Interests
-         </a>
-      </div>
-      <div id="nav-content-highlight"></div>
-   </div>
-   <div id="nav-footer">
-      <p>2025</p>
+         </div>
+      </a>
    </div>
 </nav>
 );
