@@ -5,6 +5,10 @@
    justify-content: center;
 }
 
+.stack-container .section-header {
+   margin-bottom: -20px;
+}
+
 .stack-container p {
    margin-top: 15px;
 }
@@ -94,7 +98,6 @@
 
 .back-end-container > div p {
    opacity: 95%;
-   color: black;
 }
 
 .back-end-container > div {

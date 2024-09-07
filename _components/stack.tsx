@@ -2,7 +2,7 @@ export default (
    { title, children, comp, projects }: Lume.Data,
    helpers: Lume.Helpers
 ) => (
-   <section id="stack" className="stack-container">
+   <section id="stack" class="stack-container">
       <div class="section-header">
          <img src="/assets/stack.svg" width="20"/>
          <h1>Stack</h1>

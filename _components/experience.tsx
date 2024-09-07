@@ -4,11 +4,11 @@ export default (
 ) => (
    <section id="experience" className="experience-container">
       <div class="section-header">
-         <img src="/assets/experience.svg" width="40"/>
+         <img src="/assets/experience.svg" width="30"/>
          <h1>Experience</h1>
       </div>
-      <h2>Backend Developer </h2>
-      <div className="career-step">
+      <h2>Software Engineer & Backend Developer </h2>
+      <div className="step">
          <h3>Information Technology Support Centre of the Hellenic Army</h3>
          <span>March 2024 - January 2025</span>
       </div>
@@ -36,8 +36,8 @@ export default (
          </li>
       </ol>
 
-      <h2>Software Engineer and Full-Stack Developer</h2>
-      <div className="career-step">
+      <h2>Software Engineer & Full-Stack Developer</h2>
+      <div className="step">
          <h3>Niovity</h3>
          <span>September 2020 - January 2024</span>
       </div>

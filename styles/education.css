@@ -15,19 +15,9 @@
    gap: 50px;
 }
 
-.degree-container h3 {
-   margin-top: -15px;
-   color: #6d6d6d;
-}
-
 .degree-container h4 {
-   color: black;
    font-size: 20px;
    margin-bottom: -5px;
-}
-
-.degree-container h6 {
-   color: black;
 }
 
 .degree-container > div:first-child {

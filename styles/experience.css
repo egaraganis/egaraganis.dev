@@ -5,14 +5,10 @@
    justify-content: center;
 }
 
-.experience-container > h2 {
-   margin-top: 50px;
+.experience-container .section-header {
+   margin-bottom: -45px;
 }
 
-.career-step {
-   margin-top: -30px;
-   margin-bottom: -20px;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+.experience-container > h2 {
+   margin-top: 50px;
 }

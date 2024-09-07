@@ -35,16 +35,16 @@
                "code": "https://github.com/VangelisGara/Articles-Data-Mining"
             },
             {
-               "title": "Solving problems with prolog",
-               "description": "Solving a set of problems with the help of prolog. Solutions are based on Constraint Satisfaction Problem definitions",
-               "langs": ["prolog"],
-               "code": "https://github.com/VangelisGara/solving-problems-with-prolog"
-            },
-            {
                "title": "Winning Pacman with AI",
                "langs": ["python"],
                "description": "Solving the famous berkeley pacman problems with python.",
                "code": "https://github.com/VangelisGara/berkeley-pacman"
+            },
+            {
+               "title": "Solving problems with prolog",
+               "description": "Solving a set of problems with the help of prolog. Solutions are based on Constraint Satisfaction Problem definitions",
+               "langs": ["prolog"],
+               "code": "https://github.com/VangelisGara/solving-problems-with-prolog"
             }
          ]
       },

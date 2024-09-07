@@ -7,9 +7,8 @@
    --text-color: black;
    --background: #f1f1f1;
    --navbar-dark-primary: #121212;
-   --navbar-dark-secondary: #2c3e50;
    --navbar-light-primary: #f5f6fa;
-   --navbar-light-secondary: #8392a5;
+   --at-color: #2c3e50;
 }
 
 html {
@@ -88,4 +87,13 @@ section:target {
 
 .hide {
    display: none;
+}
+
+.step {
+   margin-top: -30px;
+   margin-bottom: -20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: var(--at-color);
 }

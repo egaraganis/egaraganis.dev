@@ -1,3 +1,7 @@
+.projects-container .section-header {
+   margin-bottom: -20px;
+}
+
 .category-projects-container {
    padding-bottom: 30px;
    padding-right: 10px;
@@ -6,9 +10,9 @@
 }
 
 .project-container {
+   color: var(--text-color);
    min-width: 350px;
    width: 33%;
-   color: black;
    border: 1px solid rgba(5, 3, 3, 0.17);
    border-radius: 5px;
    padding: 5px;
@@ -19,7 +23,7 @@
    border-radius: 5px;
    cursor: pointer;
    color: #0d45ac;
-   opacity: 80%;
+   opacity: 93%;
 }
 
 .navigable-header {
