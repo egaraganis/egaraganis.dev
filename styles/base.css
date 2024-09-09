@@ -2,7 +2,7 @@
 
 :root {
    --menu-hover: #f1f1f1;
-   --navbar-width: 180px;
+   --navbar-width: 160px;
    --navbar-width-min: 80px;
    --text-color: black;
    --background: #f1f1f1;
@@ -71,15 +71,6 @@ section:target {
    margin-left: calc(var(--navbar-width) + 70px);
 }
 
-.wave {
-   background-image: url(/assets/wave.svg);
-   position: fixed;
-   left: -290px;
-   height: 50px;
-   width: 200vh;
-   transform: rotate(90deg);
-}
-
 .row {
    display: flex;
    gap: 40px;
@@ -95,5 +86,35 @@ section:target {
    display: flex;
    justify-content: space-between;
    align-items: center;
+   gap: 20px;
    color: var(--at-color);
+}
+
+@media (width <= 1000px) {
+   .main-container {
+      margin-left: 80px;
+   }
+
+   h1 {
+      font-weight: 500;
+      font-size: 30px;
+   }
+
+   h2 {
+      font-size: 20px;
+   }
+
+   h3 {
+      font-size: 16px;
+   }
+
+   p {
+      margin-top: 10px;
+      margin-bottom: 10px;
+   }
+
+   ol {
+      margin-left: -25px;
+   }
+
 }

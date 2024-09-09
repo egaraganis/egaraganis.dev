@@ -13,10 +13,10 @@ export default (
                <h3>{category.title}</h3>
                <div>
                   <button class="hide" id={`backButton-${category.id}`}>
-                     <img src="/assets/left.png" width={30} alt="React logo" />
+                     <img src="/assets/left.png" width={30} alt="Previous Button" />
                   </button>
                   <button id={`nextButton-${category.id}`}>
-                     <img src="/assets/next.png" width={30} alt="React logo" />
+                     <img src="/assets/next.png" width={30} alt="Next Button" />
                   </button>
                </div>
             </div>

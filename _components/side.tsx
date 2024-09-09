@@ -13,10 +13,10 @@ export default (
                     <h2>Articles & Presentations</h2>
                     <div>
                         <button class="hide" id="backButton-articles">
-                            <img src="/assets/left.png" width={30} alt="React logo" />
+                            <img src="/assets/left.png" width={30} alt="Previous Button" />
                         </button>
                         <button id="nextButton-articles">
-                            <img src="/assets/next.png" width={30} alt="React logo" />
+                            <img src="/assets/next.png" width={30} alt="Next Button" />
                         </button>
                     </div>
                 </div>

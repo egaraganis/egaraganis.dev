@@ -46,6 +46,7 @@
 
 .lang-vertical {
    width: 25%;
+   min-width: 150px;
 }
 
 .lang-vertical > div {
@@ -60,12 +61,6 @@
    color: gray;
    font-weight: 400;
    font-size: 13px;
-}
-
-.rest-container {
-   margin-top: 20px;
-   display: flex;
-   justify-content: space-between;
 }
 
 /* ====== Frontend ====== */
@@ -139,19 +134,30 @@
 .prolangs-container > div {
    margin-top: 15px;
    display: flex;
+   justify-content: space-between;
    align-items: center;
+   flex-wrap: wrap;
    gap: 20px;
 }
 
-/* ====== Data Science ====== */
+.low-level-langs {
+   display: flex;
+}
+
+/* ====== Rest ====== */
+
+.rest-container {
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-between;
+}
 
 .ds-container > div {
    display: flex;
    align-items: center;
+   flex-wrap: wrap;
    gap: 25px;
 }
-
-/* ====== Other ====== */
 
 .others-container {
    width: 50%;
@@ -160,7 +166,7 @@
 .others-container > ul {
    display: flex;
    flex-wrap: wrap;
-   gap: 5px;
+   gap: 10px;
    padding-left: 15px;
 }
 
@@ -168,4 +174,22 @@
    width: 49%;
 }
 
+@media (width <= 1000px) {
+   .fields-of-knowledge {
+      display: flex;
+      flex-direction: column;
+   }
 
+   .rest-container {
+      flex-direction: column;
+   }
+
+   .others-container {
+      margin-top: 20px;
+      width: 100%;
+   }
+
+   .others-container > ul > li {
+      width: 100%;
+   }
+}

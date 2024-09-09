@@ -1,4 +1,4 @@
-#nav-bar {
+.nav-bar {
    position: fixed;
    left: 0vw;
    top: 0vw;
@@ -10,26 +10,26 @@
    flex-direction: column;
    align-items: center;
    justify-content: center;
+   width: var(--navbar-width);
 }
 
 .me {
-   margin-left: 20px;
+   margin-left: 22.5px;
    margin-bottom: 20px;
-   width: 140px;
-   height: 140px;
+   width: 120px;
+   height: 120px;
    border-radius: 50%;
    background-image: url(/assets/me_rounder.png);
    background-size: cover;
-   border: 1px solid #a5a5a5;
+   border: 2px solid #a5a5a5;
 }
 
-#nav-bar a {
+.nav-bar a {
    color: inherit;
    text-decoration: inherit;
 }
 
-#nav-content {
-   width: var(--navbar-width);
+.nav-content {
    background: var(--navbar-dark-primary);
    box-shadow: 0 0 0 16px var(--navbar-dark-primary);
    overflow: hidden;
@@ -156,4 +156,22 @@
 .nav-button:hover:after {
    top: 100%;
    box-shadow: 16px -16px var(--menu-hover);
+}
+
+@media (width <= 1000px) {
+   .nav-bar {
+      width: 50px;
+   }
+
+   .nav-button {
+      padding-left: 25px;
+   }
+
+   .nav-button span {
+      display: none;
+   }
+
+   .me {
+      display: none;
+   }
 }
