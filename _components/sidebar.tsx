@@ -48,7 +48,7 @@ export default (data: Lume.Data, helpers: Lume.Helpers) => (
          <div class="nav-button">
             <i class="icon side" width="10px" />
             <span>
-               Side Quests
+               Pursuits
             </span>
          </div>
       </a>

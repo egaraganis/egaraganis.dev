@@ -26,7 +26,7 @@ helpers: Lume.Helpers
         <div class="lang-vertical">
             <div>
                 <div class="low-level-langs">
-                    <h4>C / C++ / </h4> <img src="/assets/stack/rust.svg" width={30} alt="C, C++, Rust" />
+                    <h4><span>C</span> / <span>C++</span> / </h4> <img src="/assets/stack/rust.svg" width={30} alt="C, C++, Rust" />
                 </div>
                 <p> Handful experience</p>
             </div>

@@ -20,11 +20,10 @@
 }
 
 .project-container:hover  {
-   border: 1px solid #0d45ac;
+   border: 1px solid #344a72;
    border-radius: 5px;
    cursor: pointer;
-   color: #0d45ac;
-   opacity: 93%;
+   color: #344a72;
 }
 
 .navigable-header {

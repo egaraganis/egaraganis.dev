@@ -33,9 +33,9 @@ helpers: Lume.Helpers
             </div>
         </div>
         <div class="tech">
-            <div>
-                <img src="/assets/stack/html.svg" width={40} alt="HTML and CSS logo" />
-                <img src="/assets/stack/css.svg" width={40} alt="My Happy SVG" style={{ marginTop: -40, marginLeft: -27 }} />
+            <div class="html-css">
+                <img src="/assets/stack/html.svg" width={40} alt="HTML logo" />
+                <img src="/assets/stack/css.svg" width={40} alt="CSS logo"/>
             </div>
             <div>
                 <h4>HTML + CSS</h4>

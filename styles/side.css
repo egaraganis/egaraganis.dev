@@ -31,6 +31,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    margin-bottom: -10px;
 }
 
 .v-container > ul > li {
@@ -42,10 +43,8 @@
 
 .v-container > ul > li > div {
     display: flex;
-    gap: 20px;
-}
-
-.v-container > ul > li > div > h3 {
+    align-items: center;
+    gap: 10px;
     margin-bottom: -10px;
 }
 
@@ -53,12 +52,13 @@
     width: 75%;
 }
 
-.ap-container > ul {
-    margin-left: -40px;
-    list-style: none;
+.articles-presentations-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-.ap-container > ul > li {
+.article-presentation-card {
     margin-bottom: 10px;
     min-width: 350px;
     display: flex;
@@ -75,7 +75,9 @@
 
 .image-container {
     border-radius: 5px;
-    min-width: 200px;
+    width: 250px;
+    min-width: 250px;
+    max-width: 250px;
     height: 150px;
     background-color: gainsboro;
 }
@@ -83,11 +85,15 @@
 .image-container-2 {
     border-radius: 5px;
     width: 50px;
+    min-width: 50px;
+    max-width: 50px;
     height: 50px;
+    min-height: 50px;
+    max-height: 50px;
     background-color: gainsboro;
 }
 
-@media (width <= 1000px) {
+@media (width <= 1200px) {
     .avh-container {
         flex-direction: column;
     }
@@ -100,13 +106,18 @@
         width: 100%;
     }
 
-    .ap-container > ul > li {
+}
+
+@media (width <= 700px) {
+    .article-presentation-card {
+        gap: 5px;
         flex-direction: column;
+        max-width: 300px;
         min-width: 300px;
-        gap: 0px;
     }
 
     .image-container {
-        min-width: 300px;
+        width: 300px;
+        max-width: 300px;
     }
 }

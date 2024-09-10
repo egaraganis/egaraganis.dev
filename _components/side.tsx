@@ -5,7 +5,7 @@ export default (
     <section id="side" className="side-container">
         <div class="section-header">
             <img src="/assets/side.svg" width="30"/>
-            <h1>Side Quests</h1>
+            <h1>Pursuits</h1>
         </div>
         <div class="avh-container">
             <div class="ap-container">
@@ -20,29 +20,29 @@ export default (
                         </button>
                     </div>
                 </div>
-                <ul id="articles-tripplet-3">
-                    <li>
+                <div class="articles-presentations-container" id="articles-tripplet-3">
+                    <div class="article-presentation-card">
                         <div class="image-container"></div>
                         <div>
                             <h3>{articles[0].title}</h3>
                             <p>{articles[0].description}</p>
                         </div>
-                    </li>
-                    <li>
+                    </div>
+                    <div class="article-presentation-card">
                         <div class="image-container"></div>
                         <div>
                             <h3>{articles[1].title}</h3>
                             <p>{articles[1].description}</p>
                         </div>
-                    </li>
-                    <li>
+                    </div>
+                    <div class="article-presentation-card">
                         <div class="image-container"></div>
                         <div>
                             <h3>{articles[2].title}</h3>
                             <p>{articles[2].description}</p>
                         </div>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </div>
             <div class="v-container">
                 <h2>Volunteering</h2>
