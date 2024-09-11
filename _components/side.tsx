@@ -21,27 +21,27 @@ export default (
                     </div>
                 </div>
                 <div class="articles-presentations-container" id="articles-tripplet-3">
-                    <div class="article-presentation-card">
-                        <div class="image-container"></div>
+                    <a href={articles[0].link} class="article-presentation-card" target="_blank">
+                        <div class="image-container" style={{backgroundImage: `url(${articles[0].img})`, backgroundColor: `${articles[0].bgColor}`}} />
                         <div>
                             <h3>{articles[0].title}</h3>
                             <p>{articles[0].description}</p>
                         </div>
-                    </div>
-                    <div class="article-presentation-card">
-                        <div class="image-container"></div>
+                    </a>
+                    <a href={articles[1].link} class="article-presentation-card" target="_blank">
+                        <div class="image-container" style={{backgroundImage: `url(${articles[1].img})`, backgroundColor: `${articles[1].bgColor}`}} />
                         <div>
                             <h3>{articles[1].title}</h3>
                             <p>{articles[1].description}</p>
                         </div>
-                    </div>
-                    <div class="article-presentation-card">
-                        <div class="image-container"></div>
+                    </a>
+                    <a href={articles[2].link} class="article-presentation-card" target="_blank">
+                        <div class="image-container" style={{backgroundImage: `url(${articles[2].img})`, backgroundColor: `${articles[2].bgColor}`}} />
                         <div>
                             <h3>{articles[2].title}</h3>
                             <p>{articles[2].description}</p>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
             <div class="v-container">

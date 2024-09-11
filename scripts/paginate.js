@@ -40,23 +40,31 @@ function createProjectContainer(project) {
 }
 
 function createArticleContainer(article) {
-    const container = document.createElement('li')
+    const anchor = document.createElement('a')
+    anchor.href = article.link
+    anchor.classList.add('article-presentation-card')
+    anchor.target = '_blank'
 
     const img = document.createElement('div')
-    img.classList.add("image-container")
-    container.appendChild(img)
+    img.classList.add('image-container')
+    img.style.backgroundImage = `url(${article.img})`
+    img.style.backgroundColor = article.bgColor
 
-    const div = document.createElement('div')
-    const h3 = document.createElement('h3')
-    h3.textContent = article.title
-    const p = document.createElement('p')
-    p.textContent = article.description
-    div.appendChild(h3)
-    div.appendChild(p)
+    const contentDiv = document.createElement('div')
 
-    container.appendChild(div)
+    const title = document.createElement('h3')
+    title.textContent = article.title
 
-    return container
+    const description = document.createElement('p')
+    description.textContent = article.description
+
+    contentDiv.appendChild(title)
+    contentDiv.appendChild(description)
+
+    anchor.appendChild(img)
+    anchor.appendChild(contentDiv)
+
+    return anchor
 }
 
 function registerPaginationForElement(elementId, elementCreator, elements) {
@@ -99,16 +107,23 @@ function registerPaginationForElement(elementId, elementCreator, elements) {
         var nextTripplet
 
         if(currentLastElementSliceIndex === noElements) {
-            nextButton.classList.remove('hide')
-            const noTripplets = Math.floor(noElements/3)
-            const lastPageNoCards = noElements - (noTripplets*3)
-            const newLastProjectsSliceIndex = noElements - lastPageNoCards
-            nextTripplet = elements.slice(newLastProjectsSliceIndex - 3, newLastProjectsSliceIndex)
-            trippletContainer.id = `${elementId}-tripplet-${newLastProjectsSliceIndex}`
-
-
-            if (currentLastElementSliceIndex < 6) {
+            if(currentLastElementSliceIndex === 6) {
+                nextTripplet = elements.slice(0, 3)
+                trippletContainer.id = `${elementId}-tripplet-3`
                 backButton.classList.add('hide')
+                nextButton.classList.remove('hide')
+            }
+            else {
+                nextButton.classList.remove('hide')
+                const noTripplets = Math.floor(noElements/3)
+                const lastPageNoCards = noElements - (noTripplets*3)
+                const newLastProjectsSliceIndex = noElements - lastPageNoCards
+                nextTripplet = elements.slice(newLastProjectsSliceIndex - 3, newLastProjectsSliceIndex)
+                trippletContainer.id = `${elementId}-tripplet-${newLastProjectsSliceIndex}`
+
+                if (currentLastElementSliceIndex < 6) {
+                    backButton.classList.add('hide')
+                }
             }
         }
         else {

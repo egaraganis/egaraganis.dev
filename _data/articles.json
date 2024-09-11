@@ -1,27 +1,44 @@
 [
     {
+        "title": "Leveraging Semantic Datalake Capabilities Using Knowledge Graphs and Graph Technologies",
+        "description": "Let's find out why should you UX, what actually UX means and how the UX process works.",
+        "img": "/assets/pursuits/msc-thesis.png",
+        "link": "/assets/pursuits/msc-thesis.pdf",
+        "bgColor": "white"
+    },
+    {
         "title": "UX: Why, What & How",
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium consectetur iure iusto possimus animi nihil repudiandae saepe accusamus impedit.",
-        "img": ""
+        "description": "Let's find out why should you UX, what actually UX means and how the UX process works.",
+        "img": "/assets/pursuits/ux.png",
+        "link": "/assets/pursuits/ux.pdf",
+        "bgColor": "white"
     },
     {
         "title": "Overview of European Union NIS Directives: A Brief Comparative Study",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium consectetur iure iusto possimus animi nihil repudiandae saepe accusamus impedit.",
-        "img": ""
+        "img": "/assets/pursuits/nis.png",
+        "link": "/assets/pursuits/nis.pdf",
+        "bgColor": "white"
     },
     {
         "title": "Defuse: A Dependency-Guided Function Scheduler to Mitigate Cold Starts on FaaS Platforms",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium consectetur iure iusto possimus animi nihil repudiandae saepe accusamus impedit.",
-        "img": ""
+        "img": "/assets/pursuits/defuse.png",
+        "link": "/assets/pursuits/defuse.pdf",
+        "bgColor": "#202729"
     },
     {
         "title": "In the Age of Prostagma and Hacking",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium consectetur iure iusto possimus animi nihil repudiandae saepe accusamus impedit.",
-        "img": ""
+        "img": "/assets/pursuits/aom.png",
+        "link": "",
+        "bgColor": "#E7EAF1"
     },
     {
-        "title": "Yet another ChatGPT simpost",
+        "title": "Trend Driven Articles: ChatGPT Edition",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium consectetur iure iusto possimus animi nihil repudiandae saepe accusamus impedit.",
-        "img": ""
+        "img": "/assets/pursuits/chatgpt.png",
+        "link": "https://dev.to/egaraganis/yet-another-chatgpt-simpost-5dnm",
+        "bgColor": "white"
     }
 ]

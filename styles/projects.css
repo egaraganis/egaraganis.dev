@@ -20,10 +20,9 @@
 }
 
 .project-container:hover  {
-   border: 1px solid #344a72;
+   border: 1px solid var(--card-hover-color);
    border-radius: 5px;
    cursor: pointer;
-   color: #344a72;
 }
 
 .navigable-header {
