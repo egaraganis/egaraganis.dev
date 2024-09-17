@@ -4,7 +4,7 @@ helpers: Lume.Helpers
 ) => (
 <section id="education" className="education-container">
    <div class="section-header">
-      <img src="/assets/education.svg" width="40" />
+      <i class="icon education-icon" />
       <h1>Education</h1>
    </div>
    <div className="degree-container">

@@ -66,13 +66,13 @@
    color: var(--navbar-dark-primary);
 }
 
-.nav-button:hover .mdi--user,
-.nav-button:hover .cil--education,
-.nav-button:hover .layers,
-.nav-button:hover .projects,
-.nav-button:hover .side,
-.nav-button:hover .interests,
-.nav-button:hover .experience {
+.nav-button:hover .about-icon,
+.nav-button:hover .education-icon,
+.nav-button:hover .stack-icon,
+.nav-button:hover .projects-icon,
+.nav-button:hover .pursuits-icon,
+.nav-button:hover .interests-icon,
+.nav-button:hover .experience-icon {
    background-color: var(--navbar-dark-primary);
 }
 
@@ -87,58 +87,58 @@
    padding-right: 7px;
 }
 
-.mdi--user,
-.cil--education,
-.layers,
-.projects,
-.side,
-.interests,
-.experience {
+.about-icon,
+.education-icon,
+.stack-icon,
+.projects-icon,
+.pursuits-icon,
+.interests-icon,
+.experience-icon {
    -webkit-mask-image: var(--svg);
    mask-image: var(--svg);
 }
 
-.mdi--user {
+.about-icon {
    width: 1em;
    height: 1em;
    --svg: url(/assets/about.svg);
 }
 
-.cil--education {
+.education-icon {
    width: 1em;
    height: 1em;
    --svg: url(/assets/education.svg);
    background-color: currentColor;
 }
 
-.layers {
+.stack-icon {
    width: 1em;
    height: 1em;
    --svg: url(/assets/stack.svg);
 }
 
-.projects {
+.experience-icon {
+   width: 1em;
+   height: 1em;
+   --svg: url(/assets/experience.svg);
+}
+
+.projects-icon {
    width: 0.7em;
    height: 0.7em;
    --svg: url(/assets/projects.svg);
 }
 
-.side {
+.pursuits-icon {
    width: 0.8em;
    height: 0.8em;
    --svg: url(/assets/side.svg);
 }
 
-.interests {
+.interests-icon {
    width: 0.8em;
    height: 0.8em;
    --svg: url(/assets/interests.svg);
-}
-
-.experience {
-   width: 1em;
-   height: 1em;
-   --svg: url(/assets/experience.svg);
 }
 
 .nav-button:hover:before,

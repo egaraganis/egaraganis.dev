@@ -4,7 +4,7 @@ export default (
 ) => (
    <section id="experience" className="experience-container">
       <div class="section-header">
-         <img src="/assets/experience.svg" width="30"/>
+         <i class="icon experience-icon" />
          <h1>Experience</h1>
       </div>
       <h2>Software Engineer & Backend Developer </h2>

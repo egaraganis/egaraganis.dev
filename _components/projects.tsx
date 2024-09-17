@@ -4,7 +4,7 @@ export default (
 ) => (
    <section id="projects" className="projects-container">
       <div class="section-header">
-         <img src="/assets/projects.svg" width="20"/>
+         <i class="icon projects-icon" />
          <h1>Projects</h1>
       </div>
       {projects.categories.map((category, index) => (

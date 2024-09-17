@@ -4,7 +4,7 @@ export default (
 ) => (
    <section id="stack" class="stack-container">
       <div class="section-header">
-         <img src="/assets/stack.svg" width="20"/>
+         <i class="icon stack-icon" />
          <h1>Stack</h1>
       </div>
       <div class="fields-of-knowledge">

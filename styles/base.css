@@ -63,6 +63,12 @@ ol li {
    gap: 10px;
 }
 
+.section-header > i {
+   background-color: var(--navbar-dark-primary);
+   width: 22px;
+   height: 22px;
+   margin-right: -5px;
+}
 
 section:target {
    scroll-margin-top: 20px;

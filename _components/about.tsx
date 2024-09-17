@@ -7,7 +7,8 @@ export default (data: Lume.Data, helpers: Lume.Helpers) => (
       </p>
       <div>
          <a href="">Download CV</a>/
-         <a href="https://www.linkedin.com/in/vangelis-garaganis-a36426168/" target="_blank">LinkedIn</a>
+         <a href="https://www.linkedin.com/in/vangelis-garaganis-a36426168/" target="_blank">LinkedIn</a>/
+         <a href="">mail@egaraganis.com</a>
       </div>
    </section>
 );

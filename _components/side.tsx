@@ -4,7 +4,7 @@ export default (
 ) => (
     <section id="side" className="side-container">
         <div class="section-header">
-            <img src="/assets/side.svg" width="30"/>
+            <i class="icon pursuits-icon" />
             <h1>Pursuits</h1>
         </div>
         <div class="avh-container">
