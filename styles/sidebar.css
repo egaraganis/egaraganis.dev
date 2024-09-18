@@ -11,6 +11,8 @@
    align-items: center;
    justify-content: center;
    width: var(--navbar-width);
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
 }
 
 .me {
@@ -58,7 +60,9 @@
    padding-right: calc(var(--navbar-width)/4);
 }
 
-.nav-button:hover {
+.active
+/* .nav-button:hover  */
+{
    height: 54px;
    background: var(--menu-hover);
    border-radius: 16px 0 0 16px;
@@ -66,15 +70,46 @@
    color: var(--navbar-dark-primary);
 }
 
-.nav-button:hover .about-icon,
+.active .about-icon,
+.active .education-icon,
+.active .stack-icon,
+.active .projects-icon,
+.active .pursuits-icon,
+.active .interests-icon,
+.active .experience-icon
+/* .nav-button:hover .about-icon,
 .nav-button:hover .education-icon,
 .nav-button:hover .stack-icon,
 .nav-button:hover .projects-icon,
 .nav-button:hover .pursuits-icon,
 .nav-button:hover .interests-icon,
-.nav-button:hover .experience-icon {
+.nav-button:hover .experience-icon
+*/
+{
    background-color: var(--navbar-dark-primary);
 }
+
+.active:before,
+.active:after
+/* .nav-button:hover:before,
+.nav-button:hover:after */
+{
+   content: '';
+   position: absolute;
+   right: 0;
+   bottom: 100%;
+   width: 32px;
+   height: 32px;
+   border-radius: 50%;
+   box-shadow: 16px 16px var(--menu-hover);
+}
+
+.active::after,
+.nav-button:hover:after {
+   top: 100%;
+   box-shadow: 16px -16px var(--menu-hover);
+}
+
 
 .icon {
    display: inline-block;
@@ -139,23 +174,6 @@
    width: 0.8em;
    height: 0.8em;
    --svg: url(/assets/interests.svg);
-}
-
-.nav-button:hover:before,
-.nav-button:hover:after {
-   content: '';
-   position: absolute;
-   right: 0;
-   bottom: 100%;
-   width: 32px;
-   height: 32px;
-   border-radius: 50%;
-   box-shadow: 16px 16px var(--menu-hover);
-}
-
-.nav-button:hover:after {
-   top: 100%;
-   box-shadow: 16px -16px var(--menu-hover);
 }
 
 @media (width <= 1000px) {

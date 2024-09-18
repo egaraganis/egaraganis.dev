@@ -1,0 +1,45 @@
+.education-container {
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.education-container .section-header {
+   margin-bottom: -5px;
+}
+
+.degree-container {
+   margin-top: 0px;
+   display: flex;
+   gap: 50px;
+}
+
+.degree-container h4 {
+   font-size: 20px;
+   margin-bottom: -5px;
+}
+
+.degree-container > div:first-child {
+   width: 60%;
+   margin-bottom: 30px;
+}
+
+.degree-container > div:nth-child(2) {
+   width: 40%;
+}
+
+@media (width <= 1000px) {
+   .degree-container {
+      flex-direction: column;
+   }
+
+   .degree-container > div:first-child {
+      width: 100%;
+      margin-bottom: -60px;
+   }
+
+   .degree-container > div:nth-child(2) {
+      width: 100%;
+   }
+}

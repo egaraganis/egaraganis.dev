@@ -7,8 +7,8 @@ helpers: Lume.Helpers
     <p>
         I've been developing frontend applications for over 8 years. I
         have been experimenting with various frameworks and technologies,
-        including <a href="test">VueJS</a>, various UI frameworks and design
-        systems, such as (<a href="test">MUI</a> and <a href="test">Material</a>).
+        including <a>VueJS</a>, various UI frameworks and design
+        systems, such as (<a>MUI</a> and <a>Material</a>).
     </p>
     <div>
         <div class="tech">

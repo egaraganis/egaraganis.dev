@@ -12,11 +12,11 @@
 }
 
 .v-container {
-    width: 23%;
+    width: 20%;
 }
 
 .v-container > ul {
-    margin-left: -40px;
+    margin-left: -60px;
     list-style: none;
 }
 
@@ -24,6 +24,12 @@
     margin-bottom: 10px;
     border-radius: 5px;
     padding: 20px;
+    color: inherit;
+}
+
+.hackathon-div:hover {
+    color: var(--card-hover-color);
+    cursor: pointer;
 }
 
 .hackathon-div > div {
@@ -95,7 +101,7 @@
     height: 50px;
     min-height: 50px;
     max-height: 50px;
-    background-color: gainsboro;
+    background-size: contain;
 }
 
 @media (width <= 1200px) {

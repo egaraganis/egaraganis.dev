@@ -21,6 +21,7 @@ export default (
             <div class="wave" />
             {children}</div>
          <script type="module" src="/scripts/paginate.js"></script>
+         <script type="module" src="/scripts/sidebar.js"></script>
       </body>
    </html>
 );

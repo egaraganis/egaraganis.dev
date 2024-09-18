@@ -1,0 +1,21 @@
+.about-container {
+   min-height: 90vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.about-container h1 {
+   margin-bottom: 10px;
+}
+
+.about-container > div {
+   margin-top: 25px;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+.about-container img {
+   width: 30px;
+}
