@@ -23,7 +23,7 @@
    border-radius: 50%;
    background-image: url(/assets/me_rounder.png);
    background-size: cover;
-   border: 1.2px solid gainsboro;
+   border: 1px solid gainsboro;
 }
 
 .nav-bar a {
