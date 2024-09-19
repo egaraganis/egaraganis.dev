@@ -1,16 +1,16 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const navLinks = document.querySelectorAll('.nav-bar .nav-button');
-    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-bar .nav-button')
+    const sections = document.querySelectorAll('section[id]')
 
     const observer = new IntersectionObserver(
         (entries) => {
             entries.forEach((entry) => {
                 const id = entry.target.getAttribute('id');
-                const navLink = document.querySelector(`a[href="#${id}"] .nav-button`);
+                const navLink = document.querySelector(`a[href="#${id}"] .nav-button`)
 
                 if (entry.isIntersecting) {
-                    navLinks.forEach((link) => link.classList.remove('active'));
-                    navLink.classList.add('active');
+                    navLinks.forEach((link) => link.classList.remove('active'))
+                    navLink.classList.add('active')
                 }
             });
         },
@@ -21,6 +21,6 @@ document.addEventListener('DOMContentLoaded', function () {
     );
 
     sections.forEach((section) => {
-        observer.observe(section);
-    });
-});
+        observer.observe(section)
+    })
+})
