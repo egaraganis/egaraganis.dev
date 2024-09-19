@@ -21,7 +21,7 @@
    width: 120px;
    height: 120px;
    border-radius: 50%;
-   background-image: url(/assets/me_rounder.png);
+   background-image: url(../assets/me_rounder.png);
    background-size: cover;
    border: 1px solid gainsboro;
 }
@@ -136,44 +136,44 @@
 .about-icon {
    width: 1em;
    height: 1em;
-   --svg: url(/assets/about.svg);
+   --svg: url(../assets/about.svg);
 }
 
 .education-icon {
    width: 1em;
    height: 1em;
-   --svg: url(/assets/education.svg);
+   --svg: url(../assets/education.svg);
    background-color: currentColor;
 }
 
 .stack-icon {
    width: 1em;
    height: 1em;
-   --svg: url(/assets/stack.svg);
+   --svg: url(../assets/stack.svg);
 }
 
 .experience-icon {
    width: 1em;
    height: 1em;
-   --svg: url(/assets/experience.svg);
+   --svg: url(../assets/experience.svg);
 }
 
 .projects-icon {
    width: 0.7em;
    height: 0.7em;
-   --svg: url(/assets/projects.svg);
+   --svg: url(../assets/projects.svg);
 }
 
 .pursuits-icon {
    width: 0.8em;
    height: 0.8em;
-   --svg: url(/assets/side.svg);
+   --svg: url(../assets/side.svg);
 }
 
 .interests-icon {
    width: 0.8em;
    height: 0.8em;
-   --svg: url(/assets/interests.svg);
+   --svg: url(../assets/interests.svg);
 }
 
 @media (width <= 1000px) {

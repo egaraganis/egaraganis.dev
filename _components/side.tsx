@@ -49,7 +49,7 @@ export default (
                 <ul>
                     <li>
                         <div>
-                            <div class="image-container-2" style={{ backgroundImage: "url('/assets/cognihub.png')"}}></div>
+                            <div class="image-container-2" style={{ backgroundImage: "url(/assets/cognihub.png)"}}></div>
                             <h3>Co-creator of <a href="cognihub.gr">Cognihub</a></h3>
                         </div>
                         <p>An interdisciplinary students hub revolving cognitive sciences.</p>
@@ -65,7 +65,7 @@ export default (
                 <h2>Hackathons</h2>
                 <a class="hackathon-div">
                     <div>
-                        <div class="image-container-2" style={{ backgroundImage: "url('/assets/euvscovid.png')"}}></div>
+                        <div class="image-container-2" style={{ backgroundImage: "url(/assets/euvscovid.png)"}}></div>
                         <h3>European Hackathon EUvsCovid</h3>
                     </div>
                     <p>My submission on european hackathon tackling Covid19.</p>
