@@ -1,5 +1,5 @@
-const projectsResponse = await fetch('../_data/projects.json')
-const articlesResponse = await fetch('../_data/articles.json')
+const projectsResponse = await fetch('../data/projects.json')
+const articlesResponse = await fetch('../data/articles.json')
 
 const projectsData = await projectsResponse.json()
 const articlesData = await articlesResponse.json()
