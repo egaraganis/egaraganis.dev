@@ -119,7 +119,12 @@
     .ap-container {
         width: 100%;
     }
+}
 
+@media (width <= 1000px) {
+    .side-container {
+        min-height: initial;
+    }
 }
 
 @media (width <= 700px) {

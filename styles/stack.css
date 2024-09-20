@@ -214,6 +214,10 @@
 }
 
 @media (width <= 1000px) {
+   .stack-container {
+      min-height: initial;
+   }
+
    .fields-of-knowledge {
       display: flex;
       flex-direction: column;

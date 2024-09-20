@@ -29,6 +29,10 @@
 }
 
 @media (width <= 1000px) {
+   .education-container {
+      min-height: initial;
+   }
+
    .degree-container {
       flex-direction: column;
       gap: var(--spacing);
