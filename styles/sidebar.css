@@ -176,7 +176,7 @@
    .nav-bar {
       z-index: 1;
       width: 100vw;
-      top: initial;
+      top: auto;
       left: 0vw;
       bottom: 0vw;
       width: 100vw;

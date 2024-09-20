@@ -123,7 +123,7 @@
 
 @media (width <= 1000px) {
     .side-container {
-        min-height: initial;
+        min-height: auto;
     }
 }
 

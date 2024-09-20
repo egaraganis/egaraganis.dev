@@ -30,7 +30,7 @@
 
 @media (width <= 1000px) {
    .education-container {
-      min-height: initial;
+      min-height: auto;
    }
 
    .degree-container {
@@ -40,10 +40,10 @@
    }
 
    .degree-container > div:first-child {
-      width: initial;
+      width: auto;
    }
 
    .degree-container > div:nth-child(2) {
-      width: initial;
+      width: auto;
    }
 }

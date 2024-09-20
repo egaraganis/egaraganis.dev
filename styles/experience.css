@@ -16,7 +16,7 @@
 
 @media (width <=1000px) {
    .experience-container {
-      min-height: initial;
+      min-height: auto;
       margin-top: calc(var(--spacing)*2);
    }
 }

@@ -18,7 +18,7 @@
 
 @media (width <=1000px) {
    .about-container {
-      min-height: initial;
+      min-height: auto;
       margin-bottom: calc(var(--spacing)*2);
    }
 }

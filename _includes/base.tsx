@@ -14,7 +14,7 @@ export default (
          <link rel="stylesheet" href="/styles/experience.css" />
          <link rel="stylesheet" href="/styles/pursuits.css" />
          <link rel="stylesheet" href="/styles/interests.css" />
-         <meta name="viewport" content="width=device-width, initial-scale=1" />
+         <meta name="viewport" content="width=device-width, auto-scale=1" />
       </head>
       <body>
          <comp.sidebar />
