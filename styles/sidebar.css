@@ -186,13 +186,20 @@
    }
 
    .nav-content {
+      margin-right: calc(var(--spacing) + 10px);
       height: 100%;
-      width: 100%;
+      width: 80%;
       display: flex;
-      justify-content: space-evenly;
+      justify-content: center;
+      gap: calc(var(--spacing) + 10px);
    }
 
    .nav-button {
+      margin-left: 0px;
+      padding-right: 0px;
+   }
+
+   .icon {
       padding-left: 0px;
       padding-right: 0px;
    }
