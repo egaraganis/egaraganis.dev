@@ -6,22 +6,22 @@ helpers: Lume.Helpers
     <div class="ds-container stack-card">
         <h3>On Data Science</h3>
         <p>
-            Seasoned with a handful of AI / ML / DS projects along with knowledge following libraries:
+            Seasoned with projects along with knowledge following libraries:
         </p>
         <div>
-            <img src="/assets/stack/kibana.png" width={80} alt="React logo" />
-            <img src="/assets/stack/neogds.png" width={80} alt="React logo" />
-            <img src="/assets/stack/sklearn.png" width={80} alt="React logo" />
-            <img src="/assets/stack/echarts.png" width={120} alt="React logo" />
+            <img src="/assets/stack/kibana.png" width={70} alt="React logo" />
+            <img src="/assets/stack/neogds.png" width={70} alt="React logo" />
+            <img src="/assets/stack/sklearn.png" width={70} alt="React logo" />
+            <img src="/assets/stack/echarts.png" width={110} alt="React logo" />
         </div>
     </div>
     <div class="others-container stack-card">
         <h3>Other Worth Considering Assets</h3>
         <ul>
-            <li>Software delivery with <a>Docker</a> & <a>Gradle</a> pipelines.</li>
-            <li>Knowledge on Blockchain technologies, including <a>Solidity</a>.</li>
-            <li>Dabbled with Cloud technolgies, such us <a>OpenFaaS</a>.</li>
-            <li>Been using Linux and Shell scripting the past 8 years.</li>
+            <li>CI / CD with <a>Docker</a> & <a>Gradle</a> pipelines.</li>
+            <li>Blockchain technologies, <a>Solidity</a>.</li>
+            <li>Cloud technolgies, <a>OpenFaaS</a>.</li>
+            <li>Linux and Shell scripting, > 8 years.</li>
         </ul>
     </div>
 </div>

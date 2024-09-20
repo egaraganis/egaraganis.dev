@@ -9,3 +9,13 @@
    width: 30px;
    height: 30px;
 }
+
+.experience-section {
+   margin-bottom: var(--spacing);
+}
+
+@media (width <=1000px) {
+   .experience-container {
+      margin-top: calc(var(--spacing)*2);
+   }
+}

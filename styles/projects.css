@@ -14,7 +14,6 @@
    border-color: rgba(156,163,175, 0.25);
    border-radius: var(--border-radius);
    padding: calc(var(--card-padding)/4);
-
 }
 
 .project-container:hover  {
@@ -47,6 +46,10 @@ td {
 
 tr:nth-child(1) {
    font-weight: bold;
+}
+
+tr:nth-child(2) {
+   font-size: 0.95rem;
 }
 
 td > span {

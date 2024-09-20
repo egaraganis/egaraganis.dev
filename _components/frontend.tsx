@@ -5,9 +5,7 @@ helpers: Lume.Helpers
 <div class="front-end-container stack-card">
     <h3>On Frontend Development</h3>
     <p>
-        I've been developing web-apps for over 8 years. Experimenting with various frameworks and technologies,
-        including <a>VueJS</a> and UI frameworks / design
-        systems, such as (<a>MUI</a> and <a>Material</a>).
+        I've been developing web-apps for over 8 years.
     </p>
     <div>
         <div class="tech">

@@ -5,6 +5,11 @@
     min-height: 90vh;
 }
 
+.side-container h3 {
+    color: var(--text-color);
+    font-size: 1.2rem;
+}
+
 .side-container > .section-header > i {
     width: 25px;
     height: 25px;
@@ -60,6 +65,7 @@
 .articles-presentations-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -106,6 +112,7 @@
     }
 
     .v-container {
+        margin-top: calc(var(--spacing)*2);
         width: 100%;
     }
 
@@ -126,5 +133,9 @@
     .image-container {
         width: 300px;
         max-width: 300px;
+    }
+
+    .side-container h3 {
+        margin-top: calc(var(--spacing)/2);
     }
 }

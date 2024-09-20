@@ -7,7 +7,7 @@
    --text-color: black;
    --background: #f1f1f1;
    --dark-primary: #122c4d;
-   --primary: #1252A3;
+   --primary: #092d5c;
    --link-color: var(--primary);
    --light-primary: #f1f1f1;
    --at-color: #484d5e;
@@ -42,6 +42,19 @@ body {
    font-family: "Lato", sans-serif;
    font-style: normal;
    font-optical-sizing: auto;
+}
+
+ol, ul {
+   margin-left: -10px;
+}
+
+li {
+   margin-bottom: calc(var(--spacing)/4);
+}
+
+li::marker{
+   font-size: 0.77em;
+   line-height: 0.1;
 }
 
 a {
@@ -150,31 +163,31 @@ h6 {
 
 @media (min-width: 576px) {
    :root {
-      --pico-font-size: 107%;
+      --pico-font-size: 103%;
    }
 }
 
 @media (min-width: 768px) {
    :root {
-      --pico-font-size: 107%;
+      --pico-font-size: 103%;
    }
 }
 
 @media (min-width: 1024px) {
    :root {
-      --pico-font-size: 110%;
+      --pico-font-size: 102%;
    }
 }
 
 @media (min-width: 1280px) {
    :root {
-      --pico-font-size: 110%;
+      --pico-font-size: 102%;
    }
 }
 
 @media (min-width: 1536px) {
    :root {
-      --pico-font-size: 110%;
+      --pico-font-size: 102%;
    }
 }
 
@@ -200,8 +213,13 @@ h6 {
 /* --- */
 
 @media (width <=1000px) {
-   .main-container {}
+   .main-container {
+      width: 100vw;
+      margin-left: 0;
+      padding: 30px;
+   }
 
-   ol {}
-
+   ol, ul {
+      margin-left: -25px;
+   }
 }

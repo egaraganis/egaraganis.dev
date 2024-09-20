@@ -1,13 +1,14 @@
 export default (
-   { title, children, comp, projects }: Lume.Data,
-   helpers: Lume.Helpers
+{ title, children, comp, projects }: Lume.Data,
+helpers: Lume.Helpers
 ) => (
-   <section id="experience" className="experience-container">
-      <div class="section-header">
-         <i class="icon experience-icon" />
-         <h1>Experience</h1>
-      </div>
-      <h2>Software Engineer & Backend Developer </h2>
+<section id="experience" className="experience-container">
+   <div class="section-header">
+      <i class="icon experience-icon" />
+      <h1>Experience</h1>
+   </div>
+   <h2>Software Engineer & Backend Developer </h2>
+   <div class="experience-section">
       <div className="step">
          <h3>Information Technology Support Centre of the Hellenic Army</h3>
          <h3>March 2024 - January 2025</h3>
@@ -35,7 +36,8 @@ export default (
             Security.
          </li>
       </ol>
-
+   </div>
+   <div class="experience-section">
       <h2>Software Engineer & Full-Stack Developer</h2>
       <div className="step">
          <h3>Niovity</h3>
@@ -50,14 +52,10 @@ export default (
 
       <ol>
          <li>
-            Authored the Elasticsearch datastore management, including the
-            search and analytics querying, the automatic mapping generation and
-            batch operations in Java, along with text analysis parts - custom
-            analyzers.
+            Authored the Elasticsearch management, including analytics, batch operations, custom analyzers in Java.
          </li>
          <li>
-            Co-implemented the front and backend parts of an in house query
-            language compiler, over Elasticsearch.
+            Co-implemented the front and backend parts of an in house query language compiler, over Elasticsearch.
          </li>
          <li>
             Augmented the in-house query language compiler with graph operators,
@@ -65,16 +63,13 @@ export default (
             (Elasticsearch & Neo4j).
          </li>
          <li>
-            Developed front-end applications for backoffice user interfaces and
-            headless CMS using NextJS and React.
+            Developed front-end applications and headless CMS using NextJS and React.
          </li>
          <li>
-            Automated the domain-driven generation of visualizations diagrams
-            (class, ref).
+            Automated the domain-driven generation of diagrams.
          </li>
          <li>
-            Release management and application deployment with Docker and Gradle
-            over self-hosted environments.
+            Release management and application deployment with Docker and Gradle over self-hosted environments.
          </li>
          <li>
             <b>Bonus</b>: Conducted my master thesis on Niovity's semantic data
@@ -83,5 +78,6 @@ export default (
             advanced analytics.
          </li>
       </ol>
-   </section>
+   </div>
+</section>
 );
