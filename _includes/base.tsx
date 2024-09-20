@@ -12,7 +12,7 @@ export default (
          <link rel="stylesheet" href="/styles/education.css" />
          <link rel="stylesheet" href="/styles/stack.css" />
          <link rel="stylesheet" href="/styles/experience.css" />
-         <link rel="stylesheet" href="/styles/side.css" />
+         <link rel="stylesheet" href="/styles/pursuits.css" />
          <link rel="stylesheet" href="/styles/interests.css" />
       </head>
       <body>

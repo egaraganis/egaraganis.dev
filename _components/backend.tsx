@@ -2,10 +2,10 @@ export default (
 { title, children, comp, projects }: Lume.Data,
 helpers: Lume.Helpers
 ) => (
-<div class="back-end-container">
+<div class="back-end-container stack-card">
     <h3>On Backend Development</h3>
     <p>
-        I've been working as backend development with Microservices & RESTful architectures, on both Java and JS backend codebases.
+        Experience with Microservices & RESTful architectures, on both Java and JS backend codebases.
     </p>
     <div>
         <div>
@@ -13,19 +13,19 @@ helpers: Lume.Helpers
             <div class="tech">
                 <img src="/assets/stack/spring.svg" width={40} alt="Lume logo" />
                 <div>
-                    <h4>Spring</h4>
-                    <p>
+                    <h2>Spring</h2>
+                    <h4>
                         > 4 years + Knowledge on Spring Security, Data & Hibernate
-                    </p>
+                    </h4>
                 </div>
             </div>
             <div class="tech">
                 <img src="/assets/stack/node.svg" width={40} alt="Next.JS logo" />
                 <div>
-                    <h4>NodeJS</h4>
-                    <p>
+                    <h2>NodeJS</h2>
+                    <h4>
                         Capable with JS backend codebases, such as <a href="https://expressjs.com/">ExpressJS</a>
-                    </p>
+                    </h4>
                 </div>
             </div>
         </div>
@@ -34,16 +34,16 @@ helpers: Lume.Helpers
             <div class="tech">
                 <img src="/assets/stack/kafka.svg" width={40} alt="React logo" />
                 <div>
-                    <h4>Kafka</h4>
-                    <p>
+                    <h2>Kafka</h2>
+                    <h4>
                         Worked with Kafka event's streaming architecture.
-                    </p>
+                    </h4>
                 </div>
             </div>
             <h6>Testing</h6>
-            <p>
-                Confident in testing with <a>Spock</a> and <a>JUnit</a>
-            </p>
+            <h4>
+                Testing with <a>Spock</a> and <a>JUnit</a>
+            </h4>
         </div>
     </div>
 </div>

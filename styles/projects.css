@@ -1,7 +1,3 @@
-.projects-container .section-header {
-   margin-bottom: -20px;
-}
-
 .category-projects-container {
    padding-bottom: 30px;
    padding-right: 10px;
@@ -14,9 +10,11 @@
    color: var(--text-color);
    min-width: 350px;
    width: 31.7%;
-   border: 1px solid rgba(5, 3, 3, 0.17);
-   border-radius: 5px;
-   padding: 5px;
+   border: var(--border);
+   border-color: rgba(156,163,175, 0.25);
+   border-radius: var(--border-radius);
+   padding: calc(var(--card-padding)/4);
+
 }
 
 .project-container:hover  {

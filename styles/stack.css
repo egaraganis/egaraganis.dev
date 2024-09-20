@@ -5,22 +5,16 @@
    justify-content: center;
 }
 
-.stack-container .section-header {
-   margin-bottom: -20px;
-}
-
-.stack-container p {
-   margin-top: 15px;
-}
-
-.stack-container h3 {
-   margin-bottom: 0px;
+.stack-container > .section-header > i {
+   width: 30px;
+   height: 30px;
 }
 
 .fields-of-knowledge {
    display: grid;
    grid-template-columns: 2fr 0.5fr 0.5fr;
-   gap: 10px 20px;
+   gap: var(--spacing) var(--spacing);
+   margin-bottom: var(--spacing);
    grid-auto-flow: row;
    grid-template-areas:
    "backend-container frontend-container frontend-container"
@@ -34,14 +28,28 @@
    gap: 10px;
 }
 
-.tech h4 {
-   margin-bottom: -12px;
+.tech h2,
+.tech-vertical h2,
+.lang-vertical h2 {
+   font-size: 0.9rem;
+   font-weight: bold;
 }
+
+.tech h4,
+.tech-vertical h4,
+.lang-vertical h4 {
+   font-size: 0.8rem;
+}
+
 
 .tech-vertical {
    display: flex;
    flex-direction: column;
    width: 33%;
+}
+
+.tech-vertical img {
+   margin-bottom: 10px;
 }
 
 .lang-vertical {
@@ -56,8 +64,6 @@
 }
 
 .fields-of-knowledge h6 {
-   margin-top: 5px;
-   margin-bottom: -6px;
    color: gray;
    font-weight: 400;
    font-size: 13px;
@@ -72,6 +78,13 @@
 .html-css > img:nth-child(2) {
    margin-top: -25px;
    padding-left: 15px;
+}
+
+.stack-card {
+   border: var(--border);
+   border-color: rgba(156,163,175, 0.19);
+   border-radius: var(--border-radius);
+   padding: var(--card-padding);
 }
 
 /* ====== Frontend ====== */
@@ -163,9 +176,9 @@
 /* ====== Rest ====== */
 
 .rest-container {
-   margin-top: 20px;
    display: flex;
    justify-content: space-between;
+   gap: 20px;
 }
 
 .ds-container > div {
@@ -175,9 +188,6 @@
    gap: 25px;
 }
 
-.others-container {
-   width: 50%;
-}
 
 .others-container > ul {
    display: flex;
@@ -207,7 +217,6 @@
    }
 
    .others-container {
-      margin-top: 20px;
       width: 100%;
    }
 

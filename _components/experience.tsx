@@ -10,7 +10,7 @@ export default (
       <h2>Software Engineer & Backend Developer </h2>
       <div className="step">
          <h3>Information Technology Support Centre of the Hellenic Army</h3>
-         <span>March 2024 - January 2025</span>
+         <h3>March 2024 - January 2025</h3>
       </div>
 
       <p>
@@ -39,7 +39,7 @@ export default (
       <h2>Software Engineer & Full-Stack Developer</h2>
       <div className="step">
          <h3>Niovity</h3>
-         <span>September 2020 - January 2024</span>
+         <h3>September 2020 - January 2024</h3>
       </div>
 
       <p>

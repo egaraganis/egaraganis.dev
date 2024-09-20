@@ -3,8 +3,8 @@
    left: 0vw;
    top: 0vw;
    height: calc(100%);
-   background: var(--navbar-dark-primary);
-   color: var(--navbar-light-primary);
+   background: var(--primary);
+   color: var(--light-primary);
    overflow: hidden;
    display: flex;
    flex-direction: column;
@@ -32,8 +32,6 @@
 }
 
 .nav-content {
-   background: var(--navbar-dark-primary);
-   box-shadow: 0 0 0 16px var(--navbar-dark-primary);
    overflow: hidden;
    font-size: 16px;
    font-weight: 500;
@@ -67,7 +65,7 @@
    background: var(--menu-hover);
    border-radius: 16px 0 0 16px;
    transition: top .2s;
-   color: var(--navbar-dark-primary);
+   color: var(--dark-primary);
 }
 
 .active .about-icon,
@@ -86,7 +84,7 @@
 .nav-button:hover .experience-icon
 */
 {
-   background-color: var(--navbar-dark-primary);
+   background-color: var(--dark-primary);
 }
 
 .active:before,

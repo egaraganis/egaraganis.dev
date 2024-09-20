@@ -4,3 +4,8 @@
     flex-direction: column;
     justify-content: center;
 }
+
+.interests-container > .section-header > i {
+    width: 22px;
+    height: 22px;
+}

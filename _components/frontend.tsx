@@ -2,34 +2,33 @@ export default (
 { title, children, comp, projects }: Lume.Data,
 helpers: Lume.Helpers
 ) => (
-<div class="front-end-container">
+<div class="front-end-container stack-card">
     <h3>On Frontend Development</h3>
     <p>
-        I've been developing frontend applications for over 8 years. I
-        have been experimenting with various frameworks and technologies,
-        including <a>VueJS</a>, various UI frameworks and design
+        I've been developing web-apps for over 8 years. Experimenting with various frameworks and technologies,
+        including <a>VueJS</a> and UI frameworks / design
         systems, such as (<a>MUI</a> and <a>Material</a>).
     </p>
     <div>
         <div class="tech">
             <img src="/assets/stack/lume.svg" width={40} alt="Lume logo" />
             <div>
-                <h4>Lume</h4>
-                <p>For Static Websites</p>
+                <h2>Lume</h2>
+                <h4>For Static Websites</h4>
             </div>
         </div>
         <div class="tech">
             <img src="/assets/stack/nextjs.svg" width={40} alt="Next.JS logo" />
             <div>
-                <h4>Next.JS</h4>
-                <p>> 4 years</p>
+                <h2>Next.JS</h2>
+                <h4>> 4 years</h4>
             </div>
         </div>
         <div class="tech">
             <img src="/assets/stack/react.svg" width={40} alt="React logo" />
             <div>
-                <h4>React</h4>
-                <p>> 6 years</p>
+                <h2>React</h2>
+                <h4>> 6 years</h4>
             </div>
         </div>
         <div class="tech">
@@ -38,24 +37,22 @@ helpers: Lume.Helpers
                 <img src="/assets/stack/css.svg" width={40} alt="CSS logo"/>
             </div>
             <div>
-                <h4>HTML + CSS</h4>
-                <p>Highly experienced</p>
+                <h2>HTML + CSS</h2>
+                <h4>Highly experienced</h4>
             </div>
         </div>
         <div class="tech">
             <img src="/assets/stack/react-native.svg" width={40} alt="React Native logo" />
             <div>
-                <h4>React Native</h4>
-                <p>For Mobile Development </p>
+                <h2>React Native</h2>
+                <h4>For Mobile Development </h4>
             </div>
         </div>
         <div class="tech">
             <img src="/assets/stack/tauri.svg" width={40} alt="Tauri logo" />
             <div>
-                <h4>Tauri</h4>
-                <p>
-                    For Cross Desktop Development
-                </p>
+                <h2>Tauri</h2>
+                <h4>For Cross Desktop Development</h4>
             </div>
         </div>
     </div>

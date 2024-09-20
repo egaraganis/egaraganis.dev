@@ -11,7 +11,7 @@ export default (
       <comp.stack />
       <comp.experience />
       <comp.projects />
-      <comp.side />
+      <comp.pursuits />
       <comp.interests />
    </>
 );

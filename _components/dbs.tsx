@@ -2,29 +2,29 @@ export default (
 { title, children, comp, projects }: Lume.Data,
 helpers: Lume.Helpers
 ) => (
-<div class="dbs-container">
+<div class="dbs-container stack-card">
     <h3>On Databases</h3>
     <p>
-        I have been utilizing both SQL and NoSQL (document and graph-based) for different kinds of needs and architectures.
+        Confident in both SQL and NoSQL, including OLAP.
     </p>
     <div>
         <div class="tech-vertical">
             <img src="/assets/stack/elastic.png" width={100} alt="React logo" />
-            <p>
+            <h4>
                 > 5 years, Highly Experienced
-            </p>
+            </h4>
         </div>
         <div class="tech-vertical">
             <img src="/assets/stack/neo4j.png" width={80} alt="Lume logo" />
-            <p>
+            <h4>
                 Familiar with Neo4j's DB and DS ecosystem.
-            </p>
+            </h4>
         </div>
         <div class="tech-vertical">
             <img src="/assets/stack/mysql.png" width={80} alt="Next.JS logo" style={{marginTop: -15}} />
-            <p>
+            <h4>
                 Confident with MySQL dbs.
-            </p>
+            </h4>
         </div>
     </div>
 </div>

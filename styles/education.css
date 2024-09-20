@@ -5,28 +5,27 @@
    justify-content: center;
 }
 
-.education-container .section-header {
-   margin-bottom: -5px;
+.education-container > .section-header > i {
+   width: 30px;
+   height: 30px;
 }
 
 .degree-container {
-   margin-top: 0px;
    display: flex;
-   gap: 50px;
-}
-
-.degree-container h4 {
-   font-size: 20px;
-   margin-bottom: -5px;
+   gap: 60px;
+   margin-bottom: var(--spacing);
 }
 
 .degree-container > div:first-child {
    width: 60%;
-   margin-bottom: 30px;
 }
 
 .degree-container > div:nth-child(2) {
    width: 40%;
+   border: var(--border);
+   border-color: rgba(156,163,175, 0.19);
+   border-radius: var(--border-radius);
+   padding: var(--card-padding);
 }
 
 @media (width <= 1000px) {
@@ -36,7 +35,6 @@
 
    .degree-container > div:first-child {
       width: 100%;
-      margin-bottom: -60px;
    }
 
    .degree-container > div:nth-child(2) {

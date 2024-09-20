@@ -5,10 +5,7 @@
    justify-content: center;
 }
 
-.experience-container .section-header {
-   margin-bottom: -45px;
-}
-
-.experience-container > h2 {
-   margin-top: 50px;
+.experience-container > .section-header > i {
+   width: 30px;
+   height: 30px;
 }

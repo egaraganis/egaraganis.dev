@@ -3,7 +3,7 @@ export default (
 helpers: Lume.Helpers
 ) => (
 <div class="rest-container">
-    <div class="ds-container">
+    <div class="ds-container stack-card">
         <h3>On Data Science</h3>
         <p>
             Seasoned with a handful of AI / ML / DS projects along with knowledge following libraries:
@@ -15,7 +15,7 @@ helpers: Lume.Helpers
             <img src="/assets/stack/echarts.png" width={120} alt="React logo" />
         </div>
     </div>
-    <div class="others-container">
+    <div class="others-container stack-card">
         <h3>Other Worth Considering Assets</h3>
         <ul>
             <li>Software delivery with <a>Docker</a> & <a>Gradle</a> pipelines.</li>
