@@ -63,7 +63,7 @@ export default (
                     </li>
                 </ul>
                 <h2>Hackathons</h2>
-                <a class="hackathon-div">
+                <a class="hackathon-div" href="https://devpost.com/software/napao" target="_blank">
                     <div>
                         <div class="image-container-2" style={{ backgroundImage: "url(/assets/euvscovid.png)"}}></div>
                         <h3>European Hackathon EUvsCovid</h3>

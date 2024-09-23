@@ -65,7 +65,6 @@
 .articles-presentations-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 20px;
 }
 
@@ -131,8 +130,7 @@
     .article-presentation-card {
         gap: 5px;
         flex-direction: column;
-        max-width: 300px;
-        min-width: 300px;
+
     }
 
     .image-container {

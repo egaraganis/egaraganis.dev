@@ -59,7 +59,7 @@
                "code": null
             },
             {
-               "title": "DEVils Scrum Tool",
+               "title": "Scrum Tool",
                "description": "Web cooperative platform that helps teams to implement software projects based on agile methodology (SCRUM) via sprints, epics, user stories and issues.",
                "langs": ["vuejs", "java", "sql"],
                "code": "https://github.com/ogarmpis/DEVils-Scrum-Tool"
@@ -69,6 +69,12 @@
                "description": "My submission and solution for the COVID-19 crisis to the Europeran Hackathon: EUvsVirus. Crowd management and live tracking of people in restaurants, malls, grocery stores. ",
                "langs": ["react", "mapbox"],
                "code": "https://devpost.com/software/napao"
+            },
+            {
+               "title": "This portfolio",
+               "description": "Currently implementing and conducting a survey management platform for developers. Autogenerate surveys from json, analyze and visualize results with wizard.",
+               "langs": ["lume", "html", "css", "js"],
+               "code": "https://github.com/egaraganis/egaraganis.dev"
             },
             {
                "title": "Redesinging Eudoxus",
