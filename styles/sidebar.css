@@ -175,11 +175,10 @@
 @media (width <=1000px) {
    .nav-bar {
       z-index: 1;
-      width: 100vw;
+      width: 100%;
       top: auto;
       left: 0vw;
       bottom: 0vw;
-      width: 100vw;
       height: 50px;
       border-top-right-radius: 0px;
       border-bottom-right-radius: 0px;
