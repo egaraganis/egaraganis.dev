@@ -12,7 +12,7 @@ helpers: Lume.Helpers
          <h2>Master's Degree in Information Systems Development and Security</h2>
          <div class="step">
             <h3>Athens University Of Economics And Business</h3>
-            <h4>September 2021 - September 2023</h4>
+            <h3>September 2021 - September 2023</h3>
          </div>
          <p>
             Certification in:
@@ -43,7 +43,7 @@ helpers: Lume.Helpers
          <h2>Bachelor's Degree in Informatics and Telecommunications</h2>
          <div class="step">
             <h3>National Kapodistrian University of Athens</h3>
-            <h4>September 2014 - September 2020</h4>
+            <h3>September 2014 - September 2020</h3>
          </div>
          <p>
             Specilized in:

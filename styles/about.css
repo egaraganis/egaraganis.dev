@@ -21,4 +21,12 @@
       min-height: auto;
       margin-bottom: calc(var(--spacing)*2);
    }
+
+   .about-container > h1 {
+      margin-bottom: 0px;
+   }
+
+   .about-container > p {
+      margin-bottom: -3px;
+   }
 }

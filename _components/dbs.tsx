@@ -15,13 +15,13 @@ helpers: Lume.Helpers
             </h4>
         </div>
         <div class="tech-vertical">
-            <img src="/assets/stack/neo4j.png" width={80} alt="Lume logo" />
+            <img src="/assets/stack/neo4j.png" width={88} alt="Lume logo" />
             <h4>
                 Familiar with Neo4j's DB and DS ecosystem.
             </h4>
         </div>
         <div class="tech-vertical">
-            <img src="/assets/stack/mysql.png" width={80} alt="Next.JS logo" style={{marginTop: -15}} />
+            <img src="/assets/stack/mysql.png" width={84} alt="Next.JS logo" style={{marginTop: -15}} />
             <h4>
                 Confident with MySQL dbs.
             </h4>

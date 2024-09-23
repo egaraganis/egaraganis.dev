@@ -41,7 +41,7 @@ helpers: Lume.Helpers
                 </div>
             </div>
             <h6>Testing</h6>
-            <h4>
+            <h4 class="test-h6">
                 Testing with <a>Spock</a> and <a>JUnit</a>
             </h4>
         </div>
