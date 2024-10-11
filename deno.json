@@ -3,7 +3,7 @@
       "lume/": "https://deno.land/x/lume@v2.2.1/"
    },
    "tasks": {
-      "lume": "echo \"import 'lume/cli.ts'\" | deno run -A -",
+      "lume": "echo \"import 'lume/cli.ts'\" | deno run --allow-net --unsafely-ignore-certificate-errors --unstable -A -",
       "build": "deno task lume",
       "serve": "deno task lume -s"
    },

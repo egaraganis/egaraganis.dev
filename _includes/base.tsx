@@ -2,9 +2,10 @@ export default (
    { title, children, comp }: Lume.Data,
    helpers: Lume.Helpers
 ) => (
-   <html>
+   <html lang="en">
       <head>
-         <title>{title}</title>
+         <title>Evangelos Garaganis</title>
+         <meta name="description" content="Since not everything can fit into a two-pager CV, I created this portfolio to further project my work." />
          <link rel="stylesheet" href="/styles/base.css" />
          <link rel="stylesheet" href="/styles/sidebar.css" />
          <link rel="stylesheet" href="/styles/about.css" />
@@ -19,8 +20,8 @@ export default (
       <body>
          <comp.sidebar />
          <div className="main-container">
-            <div class="wave" />
-            {children}</div>
+            {children}
+         </div>
          <script type="module" src="/scripts/paginate.js"></script>
          <script type="module" src="/scripts/sidebar.js"></script>
       </body>

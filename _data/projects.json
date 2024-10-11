@@ -59,6 +59,12 @@
                "code": null
             },
             {
+               "title": "Cognihub",
+               "description": "Cognihub’s interdisciplinary hub website, including CMS & authorization features, built atop NextJS app router & server actions.",
+               "langs": ["nextjs"],
+               "code": null
+            },
+            {
                "title": "Scrum Tool",
                "description": "Web cooperative platform that helps teams to implement software projects based on agile methodology (SCRUM) via sprints, epics, user stories and issues.",
                "langs": ["vuejs", "java", "sql"],

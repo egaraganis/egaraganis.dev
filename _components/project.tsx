@@ -1,5 +1,5 @@
 export default (data: Lume.Data, helpers: Lume.Helpers) => (
-<a class="project-container" href={data.project.code} target="_blank">
+<a class="project-container" href={data.project.code} target="_blank" rel="noopener">
    <table>
       <tr>
          <td>

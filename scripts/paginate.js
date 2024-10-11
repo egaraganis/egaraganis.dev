@@ -44,6 +44,7 @@ function createArticleContainer(article) {
     anchor.href = article.link
     anchor.classList.add('article-presentation-card')
     anchor.target = '_blank'
+    anchor.rel = 'noopener'
 
     const img = document.createElement('div')
     img.classList.add('image-container')
