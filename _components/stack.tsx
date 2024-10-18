@@ -4,7 +4,7 @@ export default (
 ) => (
    <section id="stack" class="stack-container">
       <div class="section-header">
-         <i class="icon stack-icon" />
+         <i class="icon stack-icon invertable" />
          <h1>Stack</h1>
       </div>
       <div class="fields-of-knowledge">

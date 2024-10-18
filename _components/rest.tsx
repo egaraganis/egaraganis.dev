@@ -9,10 +9,10 @@ helpers: Lume.Helpers
             Seasoned with projects along with knowledge following libraries:
         </p>
         <div>
-            <img src="/assets/stack/kibana.png" width={70} alt="React logo" />
-            <img src="/assets/stack/neogds.png" width={70} alt="React logo" />
+            <img class="invertable" src="/assets/stack/kibana.png" width={70} alt="React logo" />
+            <img class="invertable" src="/assets/stack/neogds.png" width={70} alt="React logo" />
             <img src="/assets/stack/sklearn.png" width={70} alt="React logo" />
-            <img src="/assets/stack/echarts.png" width={110} alt="React logo" />
+            <img class="invertable" src="/assets/stack/echarts.png" width={110} alt="React logo" />
         </div>
     </div>
     <div class="others-container stack-card">

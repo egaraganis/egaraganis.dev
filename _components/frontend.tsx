@@ -16,7 +16,7 @@ helpers: Lume.Helpers
             </div>
         </div>
         <div class="tech">
-            <img src="/assets/stack/nextjs.svg" width={40} alt="Next.JS logo" />
+            <img class="invertable" src="/assets/stack/nextjs.svg" width={40} alt="Next.JS logo" />
             <div>
                 <h2>Next.JS</h2>
                 <h4>> 4 years</h4>

@@ -27,6 +27,37 @@
    --pico-font-size: 16px;
    --pico-line-height: 1.5;
    --pico-font-family: var(--pico-font-family-sans-serif);
+   --secondary-text: 100%
+}
+
+:root {
+   --menu-hover: #f1f1f1;
+   --navbar-width: 160px;
+   --navbar-width-min: 80px;
+   --text-color: white;
+   --background: #121212;
+   --dark-primary: #122c4d;
+   --primary: #1D1D1D;
+   --link-color: white;
+   --light-primary: #f0f0f0;
+   --at-color: white;
+   --card-hover-color: white;
+   --spacing: 20px;
+   --card-padding: 20px;
+   --border-radius: 5px;
+   --border: 1px solid;
+   --pico-h1-color: white;
+   --pico-h2-color: white;
+   --pico-h3-color: white;
+   --pico-h4-color: white;
+   --pico-h5-color: white;
+   --pico-h6-color: white;
+   --pico-color: #373c44;
+   --pico-typography-spacing-vertical: 0.5rem;
+   --pico-font-size: 16px;
+   --pico-line-height: 1.5;
+   --pico-font-family: var(--pico-font-family-sans-serif);
+   --secondary-text: 87%
 }
 
 html {
@@ -100,6 +131,10 @@ section:target {
    justify-content: space-between;
    align-items: center;
    gap: 20px;
+}
+
+.invertable {
+   filter: invert(1);
 }
 
 /* Typography */

@@ -28,6 +28,10 @@
    padding: var(--card-padding);
 }
 
+.degree-container > div:nth-child(2) > p {
+   opacity: var(--secondary-text);
+}
+
 @media (width <= 1000px) {
    .education-container {
       min-height: auto;

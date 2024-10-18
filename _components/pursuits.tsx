@@ -4,7 +4,7 @@ helpers: Lume.Helpers
 ) => (
 <section id="side" className="side-container">
     <div class="section-header">
-        <i class="icon pursuits-icon" />
+        <i class="icon pursuits-icon invertable" />
         <h1>Pursuits</h1>
     </div>
     <div class="avh-container">
@@ -12,10 +12,10 @@ helpers: Lume.Helpers
             <div class="navigable-header">
                 <h2>Articles & Presentations</h2>
                 <div>
-                    <button class="hide" id="backButton-articles">
+                    <button class="hide invertable" id="backButton-articles">
                         <img src="/assets/left.png" width={30} alt="Previous Button" />
                     </button>
-                    <button id="nextButton-articles">
+                    <button id="nextButton-articles" class="invertable">
                         <img src="/assets/next.png" width={30} alt="Next Button" />
                     </button>
                 </div>

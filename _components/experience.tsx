@@ -4,7 +4,7 @@ helpers: Lume.Helpers
 ) => (
 <section id="experience" className="experience-container">
    <div class="section-header">
-      <i class="icon experience-icon" />
+      <i class="icon experience-icon invertable" />
       <h1>Experience</h1>
    </div>
    <h2>Backend Software Engineer </h2>
@@ -50,7 +50,7 @@ helpers: Lume.Helpers
             Augmented the in-house query language compiler with graph operators, allowing query federation over multiple datastores, Elasticsearch and Neo4j.
          </li>
          <li>
-            Release management and application deployment, Docker and Gradle.
+            Involved in developing three front-end applications, NextJS and React.
          </li>
          <li>
             Release management and application deployment with Docker and Gradle over self-hosted environments.

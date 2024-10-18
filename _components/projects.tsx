@@ -4,7 +4,7 @@ export default (
 ) => (
    <section id="projects" className="projects-container">
       <div class="section-header">
-         <i class="icon projects-icon" style={{width: 22, height: 22}} />
+         <i class="icon projects-icon invertable" style={{width: 22, height: 22}} />
          <h1>Projects</h1>
       </div>
       {projects.categories.map((category, index) => (
@@ -12,10 +12,10 @@ export default (
             <div class="navigable-header">
                <h3>{category.title}</h3>
                <div>
-                  <button class="hide" id={`backButton-${category.id}`}>
+                  <button class="hide invertable" id={`backButton-${category.id}`}>
                      <img src="/assets/left.png" width={30} alt="Previous Button" />
                   </button>
-                  <button id={`nextButton-${category.id}`}>
+                  <button class="invertable" id={`nextButton-${category.id}`}>
                      <img src="/assets/next.png" width={30} alt="Next Button" />
                   </button>
                </div>
