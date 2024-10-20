@@ -71,7 +71,6 @@
 .active .pursuits-icon,
 .active .interests-icon,
 .active .experience-icon
-
 /* .nav-button:hover .about-icon,
 .nav-button:hover .education-icon,
 .nav-button:hover .stack-icon,
@@ -130,8 +129,9 @@
 }
 
 .about-icon {
-   width: 1em;
-   height: 1em;
+   --size: 1em;
+   width: var(--size);
+   height: var(--size);
    --svg: url(/assets/about.svg);
 }
 
