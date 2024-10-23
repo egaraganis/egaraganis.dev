@@ -4,7 +4,7 @@ export default (
 ) => (
    <section id="projects" className="projects-container">
       <div class="section-header">
-         <i class="icon projects-icon invertable" style={{width: 22, height: 22}} />
+         <i class="icon projects-icon" style={{width: 22, height: 22}} />
          <h1>Projects</h1>
       </div>
       {projects.categories.map((category, index) => (

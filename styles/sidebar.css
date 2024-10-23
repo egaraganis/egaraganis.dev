@@ -16,6 +16,9 @@
    font-weight: 500;
    transition: width .2s;
    font-size: 16px;
+   --icon-size-sm: 0.7em;
+   --icon-size-md: 0.8em;
+   --icon-size-lg: 1em;
 }
 
 .me {
@@ -129,46 +132,45 @@
 }
 
 .about-icon {
-   --size: 1em;
-   width: var(--size);
-   height: var(--size);
+   width: var(--icon-size-lg);
+   height: var(--icon-size-lg);
    --svg: url(/assets/about.svg);
 }
 
 .education-icon {
-   width: 1em;
-   height: 1em;
+   width: var(--icon-size-lg);
+   height: var(--icon-size-lg);
    --svg: url(/assets/education.svg);
    background-color: currentColor;
 }
 
 .stack-icon {
-   width: 1em;
-   height: 1em;
+   width: var(--icon-size-lg);
+   height: var(--icon-size-lg);
    --svg: url(/assets/stack.svg);
 }
 
 .experience-icon {
-   width: 1em;
-   height: 1em;
+   width: var(--icon-size-lg);
+   height: var(--icon-size-lg);
    --svg: url(/assets/experience.svg);
 }
 
 .projects-icon {
-   width: 0.7em;
-   height: 0.7em;
+   width: var(--icon-size-sm);
+   height: var(--icon-size-sm);
    --svg: url(/assets/projects.svg);
 }
 
 .pursuits-icon {
-   width: 0.8em;
-   height: 0.8em;
+   width: var(--icon-size-md);
+   height: var(--icon-size-md);
    --svg: url(/assets/side.svg);
 }
 
 .interests-icon {
-   width: 0.8em;
-   height: 0.8em;
+   width: var(--icon-size-md);
+   height: var(--icon-size-md);
    --svg: url(/assets/interests.svg);
 }
 
@@ -179,9 +181,12 @@
       top: auto;
       left: 0vw;
       bottom: 0vw;
-      height: 50px;
+      height: 55px;
       border-top-right-radius: 0px;
       border-bottom-right-radius: 0px;
+      --icon-size-sm: 0.9em;
+      --icon-size-md: 0.9em;
+      --icon-size-lg: 1.1em;
    }
 
    .nav-content {
@@ -226,7 +231,7 @@
    .active .pursuits-icon,
    .active .interests-icon,
    .active .experience-icon {
-      background-color: var(--background);
+      background-color: white;
    }
 
    .me {

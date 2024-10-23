@@ -4,7 +4,7 @@ helpers: Lume.Helpers
 ) => (
 <section id="side" className="side-container">
     <div class="section-header">
-        <i class="icon pursuits-icon invertable" />
+        <i class="icon pursuits-icon" />
         <h1>Pursuits</h1>
     </div>
     <div class="avh-container">

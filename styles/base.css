@@ -29,17 +29,18 @@
    --pico-font-family: var(--pico-font-family-sans-serif);
    --secondary-text: 100%;
    --filter: invert(0);
+   --theme-icon: url(/assets/sun.svg)
 }
 
 :root[data-theme='dark'] {
-   --menu-hover: #f1f1f1;
+   --menu-hover: #121212;
    --navbar-width: 160px;
    --navbar-width-min: 80px;
    --text-color: white;
    --background: #121212;
-   --dark-primary: #122c4d;
+   --dark-primary: #209ce9;
    --primary: #1D1D1D;
-   --link-color: white;
+   --link-color: #209ce9;
    --light-primary: #f0f0f0;
    --at-color: white;
    --card-hover-color: white;
@@ -60,6 +61,7 @@
    --pico-font-family: var(--pico-font-family-sans-serif);
    --secondary-text: 87%;
    --filter: invert(1);
+   --theme-icon: url(/assets/moon.svg)
 }
 
 html {
@@ -137,6 +139,17 @@ section:target {
 
 .invertable {
    filter: var(--filter);
+}
+
+#theme-button {
+   position: absolute;
+   top: 30px;
+   right: 50px;
+   background-image: var(--theme-icon);
+   background-size: contain;
+   width: 25px;
+   height: 25px;
+   cursor: pointer;
 }
 
 /* Typography */

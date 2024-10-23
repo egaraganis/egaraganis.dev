@@ -20,12 +20,12 @@ export default (
       <body>
          <comp.sidebar />
          <div className="main-container">
-            {/*<button id="theme-button">Toggle Theme</button>*/}
+            <div id="theme-button" />
             {children}
          </div>
          <script type="module" src="/scripts/paginate.js"></script>
          <script type="module" src="/scripts/sidebar.js"></script>
-         {/*<script type="module" src="/scripts/theme.js"></script>*/}
+         <script type="module" src="/scripts/theme.js"></script>
       </body>
    </html>
 );

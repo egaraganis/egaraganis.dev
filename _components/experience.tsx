@@ -4,7 +4,7 @@ helpers: Lume.Helpers
 ) => (
 <section id="experience" className="experience-container">
    <div class="section-header">
-      <i class="icon experience-icon invertable" />
+      <i class="icon experience-icon" />
       <h1>Experience</h1>
    </div>
    <h2>Backend Software Engineer </h2>
