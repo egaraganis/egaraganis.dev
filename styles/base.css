@@ -143,7 +143,7 @@ section:target {
 
 #theme-button {
    position: absolute;
-   top: 30px;
+   top: 36px;
    right: 50px;
    background-image: var(--theme-icon);
    background-size: contain;
@@ -212,9 +212,27 @@ h6 {
    --pico-color: var(--pico-h6-color);
 }
 
-@media (min-width: 576px) {
-   :root {
-      --pico-font-size: 103%;
+@media (max-width: 420px) {
+   #theme-button {
+      right: 20px;
+   }
+}
+
+@media (max-width: 400px) {
+   #theme-button {
+      right: 0px;
+   }
+}
+
+@media (max-width: 375px) {
+   #theme-button {
+      right: -15px;
+   }
+}
+
+@media (max-width: 355px) {
+   #theme-button {
+      right: -35px;
    }
 }
 

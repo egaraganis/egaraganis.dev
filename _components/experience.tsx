@@ -16,7 +16,7 @@ helpers: Lume.Helpers
 
       <ol>
          <li>
-            Responsible for the backend development of two inter-governmental services that were successfully led to delivery, Spring.
+            Responsible for the backend development of two inter-governmental services, Spring.
          </li>
          <li>
             Co-implemented the OAuth2 protocol over Greek’s Government Service Insurance System (GSIS), Spring and Spring Security.
