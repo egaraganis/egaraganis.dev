@@ -11,26 +11,23 @@ helpers: Lume.Helpers
    <div class="experience-section">
       <div className="step">
          <h3>Information Technology Support Centre of the Hellenic Army</h3>
-         <h3>Early 2024 - Late 2025</h3>
+         <h3>Early 2024 - Late 2024</h3>
       </div>
 
       <ol>
          <li>
-            Responsible for the backend development of two inter-governmental services, Spring.
+            Developed two in-house backend services, Spring.
          </li>
          <li>
-            Co-implemented the OAuth2 protocol over Greek’s Government Service Insurance System (GSIS), Spring and Spring Security.
+            Integrated oAuth2.0 over Greek’s Digital Governance Information Systems (GSIS).
          </li>
          <li>
-            Developed a Java client over GSIS Proof of Tax Awareness over SOAP.
-         </li>
-         <li>
-            Developed a high-level Java client over GSIS Citizen Gate REST API.
+            Implemented a high-level Java client over GSIS Citizen Gate REST API.
          </li>
       </ol>
    </div>
    <div class="experience-section">
-      <h2>Full-Stack Software & Data Engineer</h2>
+      <h2>Fullstack & Data Software Engineer</h2>
       <div className="step">
          <h3>Niovity</h3>
          <h3>Early 2020 - Late 2023</h3>
@@ -38,27 +35,23 @@ helpers: Lume.Helpers
 
       <ol>
          <li>
-            Contributed as a core engineer within Niovity’s datalake and BaaS realms.
+            Co-implemented an in-house query language compiler, Java, Elastic, Neo4j.
          </li>
          <li>
-            Authored Elasticsearch’s integration, search and data analytics.
+            Managed Elasticsearch’s search and analytics engine.
          </li>
          <li>
-            Co-implemented the front and backend parts of an in house query language compiler for Datalake’s search API, Elasticsearch and Java.
+            Backend development over business specific flows, Spring, Kafka.
          </li>
          <li>
-            Augmented the in-house query language compiler with graph operators, allowing query federation over multiple datastores, Elasticsearch and Neo4j.
+            Frontend development of client and server side apps, NextJS and React.
          </li>
          <li>
-            Involved in developing three front-end applications, NextJS and React.
+            Release management and application deployment, Docker and Gradle.
          </li>
          <li>
-            Release management and application deployment with Docker and Gradle over self-hosted environments.
-         </li>
-         <li>
-            <b>Bonus</b>: Conducted my master thesis on Niovity’s semantic data lake, proposing the utiliza-
-            tion of knowledge graphs and graph technologies for improved data exploration, metadata
-            management and advanced analytics.
+            <b>Bonus</b>: Conducted thesis on Niovity’s semantic datalake, proposing increased metadata manage-
+            ment and advanced analytics.
          </li>
       </ol>
    </div>

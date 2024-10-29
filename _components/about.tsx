@@ -6,7 +6,7 @@ export default (data: Lume.Data, helpers: Lume.Helpers) => (
          I consider myself highly analytical and I love being creative with my craft.
       </p>
       <div>
-         <a href="/assets/cv/Evangelos_Garaganis_CV.pdf" target="_blank">CV</a>/
+         <a href="/assets/cv/Evangelos_Garaganis_CV_EN.pdf" target="_blank">CV</a>/
          <a href="https://www.linkedin.com/in/vangelis-garaganis-a36426168/" target="_blank" rel="noopener">LinkedIn</a>/
          <a href="mailto:mail@egaraganis.dev">mail@egaraganis.com</a>
       </div>
