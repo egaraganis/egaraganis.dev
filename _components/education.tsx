@@ -15,7 +15,7 @@ helpers: Lume.Helpers
             <h3>2021 - 2023</h3>
          </div>
          <p>
-            Certification in:
+            Specialized in:
          </p>
          <ul>
             <li>Cybersecurity & Critical Infrastructures Protection</li>

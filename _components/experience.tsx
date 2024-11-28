@@ -30,10 +30,9 @@ helpers: Lume.Helpers
       <ul>
          <li>Co-implemented an in-house query language compiler, Java, Elastic, Neo4j.</li>
          <li>Managed Elasticsearch’s search and analytics engine.</li>
-         <li>Backend development over business specific flows, Spring, Kafka.</li>
-         <li>Frontend development of client and server side apps, NextJS and React.</li>
-         <li>All kind of technical writing for internal and sdk documentation.</li>
-         <li>Release management and application deployment, Docker and Gradle.</li>
+         <li>Fullstack development / Backend: Spring, Kafka / Fontend: NextJS, React.</li>
+         <li>All kind of technical writing and documentation.</li>
+         <li>Release management and application deployment, Docker, Gradle.</li>
          <li>
             <b>Bonus</b>: Conducted thesis on Niovity’s semantic datalake, proposing increased metadata manage-
             ment and advanced analytics.
@@ -43,7 +42,7 @@ helpers: Lume.Helpers
    <div class="experience-section">
       <h2>Fullstack Developer</h2>
       <div className="step">
-         <h3>Cognihub</h3>
+         <h3>Cognihub (Volunteer - Part Time)</h3>
          <h3>Early 2019 - Late 2024</h3>
       </div>
       <ul>

@@ -134,7 +134,7 @@
       },
       {
          "id": "lowlevel",
-         "title": "Lower Level Stuff",
+         "title": "Lower Level Programming",
          "projects": [
             {
                "title": "Game of life",
@@ -183,6 +183,18 @@
                "description": "A text processing engine that answers queries by creating multiple workers with fork, communicating through named pipes,low level I/O and signals and by analyzing log files with bash scripting",
                "langs": ["c", "bash"],
                "code": "https://github.com/VangelisGara/jobexecutor"
+            }
+         ]
+      },
+      {
+         "id": "other",
+         "title": "Other",
+         "projects": [
+            {
+               "title": "CryptoSOS",
+               "description": "Writing a smart contract in the Solidity language that implements the well-known SOS game in the Ethereum environment.",
+               "langs": ["solidity"],
+               "code": "https://github.com/egaraganis/cryptosos"
             }
          ]
       }
