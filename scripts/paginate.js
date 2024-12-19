@@ -5,8 +5,11 @@ const projectsData = await projectsResponse.json();
 const articlesData = await articlesResponse.json();
 
 function createProjectContainer(project) {
-    const container = document.createElement('div');
-    container.className = 'project-container';
+    const anchor = document.createElement('a');
+    anchor.href = project.code;
+    anchor.className = 'project-container';
+    anchor.target = '_blank';
+    anchor.rel = 'noopener';
 
     const table = document.createElement('table');
     const rows = [
@@ -37,8 +40,9 @@ function createProjectContainer(project) {
         table.appendChild(tr);
     });
 
-    container.appendChild(table);
-    return container;
+    anchor.appendChild(table);
+
+    return anchor;
 }
 
 function createArticleContainer(article) {
